@@ -1,0 +1,337 @@
+/* CSS Document */
+
+/*   
+CSS Style: Default
+Description: Webtrendz website
+Author: Rahim Haji
+URL: www.webtrendz.co.uk
+Version: 1.0
+*/
+
+
+html, body, div, span, applet, object, h1, h2, h3, h4, h5, h6, 
+p, blockquote, pre, a, abbr, acronym, address, del, em, img, 
+strike, strong, sub, sup, dl, dt, dd, ol, ul, li, fieldset,
+form, label, legend, button, table, caption, tbody, tfoot, thead, tr, th, td {
+	background:transparent no-repeat 0 0;
+	border:0;
+	font-size:100%;
+	margin:0;
+	outline:0;
+	padding:0;
+	text-align:left;
+	vertical-align:baseline
+}
+
+
+
+body {
+	background:#fff;
+	color:#333333;
+	font:62.5% verdana, arial, helvetica, sans-serif;
+	line-height:140%;
+	text-align:center;
+}
+p{
+	line-height:1.7em;
+	clear:both;
+	float:left;
+	width:100%;
+}
+h1,h2,h3,h4,h5,h6,strong,legend {
+	font-weight:700;
+	line-height:130%;
+}
+
+	
+h1{
+	color:#4D5E56;
+	font-size: 1.7em;
+	clear:both;
+}
+h2{
+	color:#333333;
+	font-size: 1.5em;
+	clear:both;
+}
+h3{
+	color:#2B9D1B;
+	font-size:1.4em;
+	clear:both;
+}
+
+h4{
+	color:#4D5E56;
+	font-size:1.3em;
+	clear:both;
+}
+h5, h6{
+	color:#6F6F6F;
+	font-size:1.2em;
+}
+abbr,acronym {
+	border-bottom:1px dotted #000;
+	cursor:help
+}
+
+em {
+	font-style:italic
+}
+
+p,fieldset,table {
+	margin-bottom:1em
+}
+
+sup {
+	vertical-align:super;
+	font-size:0.8em;
+	font-weight:normal;
+}
+
+p, td, th, li, dt, dd, .bp input { font-size:1.251em; *font-size: 1.3em; } 
+blockquote {
+	margin:1em
+}
+
+ol,ul {
+	list-style:none;
+	list-style-position:outside;
+	padding:0;
+	margin:0;
+}
+
+.bull{
+	padding-left:10px;
+	margin-bottom:10px;
+	*margin-bottom:20px;	
+}
+.bull li{
+	background:url(../images/bullet.gif) no-repeat 0 6px;
+	padding-left:10px;
+	clear:both;
+	margin-bottom:4px;
+	list-style-type:none !important;
+}
+
+.num{
+	margin:7px 0 0 35px;
+	clear:both;
+	list-style:decimal	
+}
+.num li{
+	padding-left:10px;
+	clear:both;
+	margin-bottom:4px;
+}
+
+.list{
+	clear:both;
+	float:left;
+	margin-left:10px;
+	color:#454545;
+}
+.list dt{
+	font-weight:bold;
+	margin:10px 0 0 0px;
+}
+.list dd{
+	margin:0px 0 0 10px;
+	line-height:1.5em;
+}
+a {
+	color:#000;
+	font-weight:bold;
+	text-decoration:none;
+}
+a:hover {
+	text-decoration:none;
+}
+
+ul li{
+	float:left; 
+}
+.wrapper{
+	width:980px;
+	margin:20px auto;
+	overflow:hidden;
+}
+
+.header{
+	/* we won't see drop down menu if overflow is hidden
+	overflow:hidden;*/
+}
+
+.logo{
+	float:left;
+	width:150px;
+	height:60px;
+	border:1px solid #000;
+}
+
+.accountNav{
+	float:right;
+	width:400px;
+	border:1px solid #000;
+	height:30px;
+}	
+
+.loginLnk{}
+
+.share{}
+
+.mainNav{
+	float:right;
+	border:1px solid #000;
+	margin:15px 0 0 0;
+}
+.mainNav ul{
+	float:left;
+}
+.mainNav ul li{
+	float:left; 
+	margin:0 5px;
+	border-right:1px solid #000;
+}
+.mainNav ul li a{
+	display:block;
+	padding:2px 5px;
+}
+
+.mainNav ul li a.current{
+	color:#FFF;
+	background:#000;
+}
+
+.searchArea{
+	float:left;
+	width:100px;
+	border:#000 1px solid;
+	text-align:center;
+	height:15px;
+	vertical-align:middle;
+	background:#000000;
+	color:#FFFFFF;
+	height:16px
+}
+
+.contentArea{
+	float:left}
+
+.mrgTop{
+	margin-top:15px;}
+
+.slider{
+	border:#000 1px solid;
+	float:left;
+	width:99%;
+	z-index:1;
+	}
+
+.prev{
+	float:left;
+	border:#000 1px solid;
+	height:150px}
+
+.img{float:left;
+	border:#000 1px solid;
+	width:776px;
+	height:150px}
+
+.next{float:left;
+	border:#000 1px solid;
+	height:150px}
+
+.leftCol{
+	/*clear:both;*/
+	float:left;
+	width:60%;}
+.leftCol1{
+	/*clear:both;*/
+	float:left;
+	width:80%;}
+.leftCol2{
+	/*clear:both;*/
+	float:left;
+	width:80%;}
+	
+.container{
+	padding:5px;
+}
+
+.welcomeArea{}
+
+.multiArea{border:#000 1px solid; float:left;width:100%}
+
+.multiAreaNav{border:#000 1px solid; float:left}
+
+.multiAreaNav li{border:#000 1px solid; margin:0 5px}
+
+.multiAreaContent{float:left; width:100%;}
+
+.banner{clear:both;border:#000 1px solid; height:60px; float:left;width:100%; text-align:center; vertical-align:middle;}
+
+.topEarners{ clear:both;border:#000 1px solid;float:left;width:100%;}
+
+.Blog {border:1px solid #000000;clear:both;float:left;width:100%;padding-bottom:10px;overflow:hidden;}
+.Blog ul {list-style:disc;padding-left:20px;}
+.Blog ul a {font-size:11px;font-weight:normal;}
+
+
+.topEarners ul{
+	width:100%;
+	}
+	
+.topEarners ul li{
+	width:95%;
+	padding:10px;
+	float:left;
+	clear:both;
+	margin-left:3px;
+	margin-bottom:5px;
+	border-bottom:#999 1px solid;}
+
+.winnerImg{clear:both;border:#000 1px solid;float:left; width:70px; height:70px; margin-right:10px;}
+
+.winnerName{ font-weight:bold; float:left}
+
+.winnerValue{ float:left; margin-left:10px;}
+
+.rightCol{
+	float:left;
+	width:19%;}
+
+.mpu{clear:both; float:left;border:#000 1px solid;float:left; width:100%; height:150px;}
+
+.bdr{border:#000 1px solid;}
+
+.loginArea{float:left;clear:both;height:150px; width:100%; margin: 10px auto 0;border:#000 1px solid;}
+
+.whoisonline{float:left;clear:both;height:150px; width:100%; margin: 10px auto;border:#000 1px solid;}
+
+.footer{float:left;clear:both;width:100%; border-top:1px solid #000; padding-top:10px}
+
+.footerLinks{float:left;clear:both;width:100%;}
+
+.footerLinks ul{float:left;clear:both;width:100%;}
+
+.footerLinks ul li{float:left;margin:0 5px 10px}
+
+.clr{clear:both;}
+
+.fltLft{float:left}
+
+.mrgBth{margin:0 35px;}
+
+.com30{width:30%; }
+
+.com30 ul{float:left; margin:10px 0}
+
+.com30 ul li{float:left; margin-bottom:5px;}
+
+.icons{float:left;clear:both;width:100%;}
+
+.icons li{margin: 0 10px;}
+
+.icons li img{float:left;clear:both;width:50px;border:#000 1px solid; height:70px}
+
+.rightcolblock {width: 99%;overflow:hidden;}

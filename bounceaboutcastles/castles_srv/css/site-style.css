@@ -1,0 +1,263 @@
+/* CSS Document */
+
+/*   
+CSS Style: Default
+Description: Webtrendz website
+Author: Rahim Haji
+URL: www.webtrendz.co.uk
+Version: 1.0
+*/
+
+
+html, body, div, span, applet, object, h1, h2, h3, h4, h5, h6, 
+p, blockquote, pre, a, abbr, acronym, address, del, em, img, 
+strike, strong, sub, sup, dl, dt, dd, ol, ul, li, fieldset,
+form, label, legend, button, table, caption, tbody, tfoot, thead, tr, th, td {
+	background:transparent no-repeat 0 0;
+	border:0;
+	font-size:100%;
+	margin:0;
+	outline:0;
+	padding:0;
+	text-align:left;
+	vertical-align:baseline
+}
+
+
+
+body {
+	background:#009345 url(../images/site-bg.jpg) no-repeat 0 0;
+	color:#333333;
+	font:62.5% verdana, arial, helvetica, sans-serif;
+	line-height:140%;
+	text-align:center;
+}
+p{
+	line-height:1.7em;
+	margin-bottom:10px;
+	font-size:1.2em;
+}
+h1,h2,h3,h4,h5,h6,strong,legend {
+	font-weight:700;
+	line-height:130%;
+}
+
+	
+h1{
+	color:#de1c7b;
+	font-weight:normal;
+	font-size: 1.4em;
+	margin:15px 0;
+}
+h2{
+	color:#3996ff;
+	font-size: 1.5em;
+	margin-bottom:5px;
+}
+
+.header h2{
+	font-weight:normal;
+}
+h3{
+	color:#DE1C7B;
+	font-size:1.4em;
+}
+
+
+.wrapper{
+	width:960px;
+	min-height:800px;
+	margin:30px auto;
+	height:100%;
+	display:table;
+}
+
+.header{
+
+}
+.nav{
+	float:left;
+	clear:both;
+	width:100%;
+	margin:40px 0 0;
+	padding:0 15px;
+}
+.nav li{
+	float:left;
+	margin-right:10px;
+	list-style:none;
+}
+.nav li a,
+.nav li.current_page_item a:hover, .nav li.current_page_parent a:hover{
+	background:url(../images/nav-l.png) no-repeat 0 0;
+	padding:0px 0px 0px 5px;
+	float:left;
+	text-decoration:none;
+	color:#fff;
+	font-weight:bold;
+}
+
+.nav li a span,
+.nav li.current_page_item a:hover span, .nav li.current_page_parent a:hover span
+{
+	background:url(../images/nav-r.png) no-repeat 100% 0;
+	float:left;
+	padding:10px 15px 10px 10px;
+	font-size:1.2em;
+	
+}
+.nav li a:hover,
+.nav li.current_page_item a, .nav li.current_page_parent a{
+	background:url(../images/nav-on-l.png) no-repeat 0 0;
+	color:#29a0d1
+}
+
+.nav li a:hover span,
+.nav li.current_page_item a span, .nav li.current_page_parent a span{
+	background:url(../images/nav-on-r.png) no-repeat 100% 0;
+}
+
+.contentArea{
+	overflow:hidden;
+	clear:both;
+	margin:0px 0;
+
+}
+
+
+.top{
+	background:url(../images/trc.png) no-repeat top right;
+	height:15px;
+	clear:both;
+}
+.tl{
+	background:url(../images/tlc.png) no-repeat top left;
+	height:15px;
+	width:15px;
+	float:left;
+}
+
+.mid{
+	background:#fff;
+	overflow:hidden
+}
+
+
+.bot{
+	background:url(../images/brc.png) no-repeat bottom right;
+	height:15px;
+	clear:both;
+}
+.bl{
+	background:url(../images/blc.png) no-repeat bottom left;
+	height:15px;
+	width:15px;
+	float:left;
+}
+
+.logo{
+	float:left;
+	margin:0 15px 0 5px;
+}
+
+.footer{
+	overflow:hidden;
+	margin:30px 0
+}
+.footer h2,
+.footer h4{
+	text-align:center
+}
+
+.webtrendz{
+	clear:both;
+	text-align:right;
+	margin:20px 0;
+	margin:30px auto;
+	width:760px;
+}
+
+.contentContainer{
+	padding:5px;
+	overflow:hidden;
+
+}
+
+.highlight{
+	border:1px solid #3996FF;
+	margin-left:5px;
+	width:240px;
+}
+
+.highlight h2{
+	background:#3996FF;
+	color:#FFF;
+	text-align:center;
+}
+
+.highlight p{
+	padding:3px;
+}
+
+.highlight p span{
+	clear:both;
+	display:block;
+	text-align:right;
+}
+
+.highlight a{
+	margin-left:5px
+}
+
+.fltRht{
+	float:right;
+}
+
+.fltLht{
+	float:left;
+}
+
+.clr{
+	clear:both;
+}
+
+.noMrg{
+	margin:0 !important;
+}
+/* WTZ added later*/
+.nocomments, .header_title, .bottom_title {
+	display:none;
+}
+.topContentContainer {
+	display: block;
+	overflow:hidden;
+	height: auto;
+}
+.img_carousel {
+	display: table-cell;
+	float: left;
+	clear:none;
+}
+.footer-menu {
+	clear:both;
+	float:none;
+	text-align:center;
+}
+.footer-menu ul {
+	overflow:hidden;
+	display:block;
+	margin:0px 0 15px 350px;
+}
+.footer-menu ul li{
+	float:left;
+	width:auto;
+	margin:0 20px;
+	padding:4px;
+}
+.footer-menu a {
+	color: #3996FF;
+	text-decoration:none;
+}
+.footer-menu a:hover {
+	text-decoration: underlaine;
+}

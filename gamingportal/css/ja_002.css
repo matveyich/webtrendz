@@ -1,0 +1,224 @@
+.ja-slidewrap {
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+
+.ja-slide-main-wrap {
+	position: relative;
+	overflow: hidden;
+}
+
+.ja-slide-main {
+	position: absolute;
+	z-index: 1;
+}
+
+.ja-slide-item {
+	display: block;
+	float: left;
+	position: relative;
+	overflow: hidden;
+	margin: 0;
+}
+
+.ja-slide-item img {
+	background: #000000;
+	border: 1px solid #1C1C1C;
+	padding: 4px;
+}
+
+.ja-slide-thumbs-wrap {
+	position: relative;
+	clear: both;
+	overflow: hidden;
+}
+
+.ja-slide-thumbs, .ja-slide-thumbs-mask, .ja-slide-thumbs-handles {
+	position: absolute;
+	top: 0;
+	margin: 0;
+	padding: 0;
+	width: 5000px;
+}
+
+.ja-slide-descs {
+	display: none;	
+}
+
+.ja-slide-thumb, .ja-slide-thumbs-handles span {
+	display: block;
+	margin: 0;
+	float: left;
+	cursor: pointer;
+}
+
+.ja-slide-thumbs-handles span {
+	background: none;
+}
+
+.ja-slide-thumbs-mask-left,
+.ja-slide-thumbs-mask-right,
+.ja-slide-thumbs-mask-center {
+	float: left;
+}
+
+.ja-slide-thumbs-mask-left, .ja-slide-thumbs-mask-right{
+	background: #000000;
+}
+
+.but_prev, .but_next {
+	background: #000000;
+	position: absolute;
+	top: 0;
+	z-index: 99;
+}
+
+.but_prev {
+	background: none;
+	left: 0;
+}
+
+.but_prev:hover, .but_next:hover {
+	cursor: pointer;
+}
+
+.but_next {
+	background: url(../images/arrow-r.gif) no-repeat left center;
+	right: 0;
+}
+
+.maskDesc {
+	background: #000000;
+	position: absolute;
+	z-index: 100;
+	cursor: pointer;
+}
+
+.maskDesc .ja-slide-desc {
+	padding: 20px 0;
+	color: #CCCCCC;
+	font-size: 150%;
+}
+
+.maskDesc .ja-slide-desc br {
+	display: none;
+}
+
+.maskDesc .ja-slide-desc h3 {
+	margin: 0;
+	padding: 0;
+}
+
+.maskDesc a.readon {
+	background: url(../images/arrow-ri-hover.gif) no-repeat right 10px;
+	bottom: 10px;
+	color: #810C46;
+	display: block;
+	font-weight: bold;
+	font-size: 100%;
+	position: absolute;
+	padding: 3px 10px 3px 0;
+	right: 20px;
+}
+
+.maskDesc a.readon:hover, .maskDesc a.readon:active, .maskDesc a.readon:focus {
+	background: url(../images/arrow-ri.gif) no-repeat right 10px;
+	color: #FFFFFF;
+}
+
+.ja-slide-buttons {
+	z-index: 900;
+}
+
+.ja-slide-buttons span {
+	background: #000000;
+	color: #FFFFFF;
+	display: block;
+	float: left;
+	margin-right: 5px;
+	padding: 2px 5px;
+	cursor: pointer;
+}
+
+/*JA Sideshow [ Topspotlight 1]*/
+#ja-slideshow .ja-slidewrap {
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+
+#ja-slideshow .ja-slide-mask {
+	background: #CCCCCC;
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
+	height: 70px;
+	width: 210px;
+	z-index: 99;
+	display: none;
+}
+
+#ja-slideshow .ja-slide-thumbs-wrap {
+	background: #CCCCCC;
+	position: absolute;
+	bottom: 10px;
+	left: 10px;
+	z-index: 100;
+}
+
+* html #ja-slideshow .ja-slide-thumbs-wrap {
+	bottom: 20px;
+}
+
+#ja-slideshow .ja-slide-buttons {
+	display: block;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	bottom: 10px;
+	left: 10px;
+	z-index: 101;
+}
+
+#ja-slideshow .ja-slide-thumb img {
+	background: #CCCCCC;
+	border: 1px solid #FFFFFF;
+	margin: 1px 0 0 1px;
+}
+
+#ja-slideshow .ja-slide-item img {
+	padding: 0;
+	border: none;
+}
+
+#ja-slideshow .maskDesc {
+	background: none;
+}
+
+#ja-slideshow .maskDesc .ja-slide-desc {
+	background: #000000;
+	color: #FFFFFF;
+	font-size: 100%;
+	padding: 20px 0px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 100% !important;
+}
+
+#ja-slideshow .maskDesc .ja-slide-desc h3 {
+	color: #CCCCCC;
+	text-transform: uppercase;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+#ja-slideshow .maskDesc .ja-slide-desc p {
+	padding-left: 30px;
+	padding-right: 30px;	
+}
+
+#ja-slideshow .maskDesc .inner {
+	display: none;
+}

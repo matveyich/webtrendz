@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Piecemaker>
+  <Settings>
+    <imageWidth>850</imageWidth>
+    <imageHeight>261</imageHeight>
+    <segments>10</segments>
+    <tweenTime>1.2</tweenTime>
+    <tweenDelay>0.1</tweenDelay>
+    <tweenType>easeInOutBack</tweenType>
+    <zDistance>0</zDistance>
+    <expand>10</expand>
+    <innerColor>0x46A8F8</innerColor>
+    <textBackground>0x46A8F8</textBackground>
+    <shadowDarkness>200</shadowDarkness>
+    <textDistance>25</textDistance>
+    <autoplay>12</autoplay>
+  </Settings>
+  <Image Filename="mpg.jpg">
+    <Text>
+      <headline>Description Text</headline>
+      <break>Ӂ</break>
+      <paragraph>Here you can add a description text for every single image.</paragraph>
+      <break>Ӂ</break>
+	  <paragraph>
+		  <inline>So it's pretty simple to set this text. You can also easily add</inline>
+		  <a href="http://www.webtrendz.co.uk" target="_blank">Ӂhyperlinks</a>
+		  <inline>. This one leads you to the website, by the way.</inline>
+   </paragraph>
+   </Text>
+  </Image>
+  <Image Filename="qpre.jpg">
+    <Text>
+      <headline>Description Text</headline>
+      <break>Ӂ</break>
+      <paragraph>Here you can add a description text for every single image.</paragraph>
+      <break>Ӂ</break>
+      <paragraph>
+		  <inline>So it's pretty simple to set this text. You can also easily add</inline>
+		  <a href="http://www.webtrendz.co.uk" target="_blank">Ӂhyperlinks</a>
+		  <inline>. This one leads you to the....</inline>
+   </paragraph>
+    </Text>
+  </Image>
+  <Image Filename="superstar.jpg">
+    <Text>
+      <headline>Description Text</headline>
+      <break>Ӂ</break>
+      <paragraph>Here you can add a description text for every single image.</paragraph>
+      <break>Ӂ</break>
+      <paragraph>
+		  <inline>So it's pretty simple to set this text. You can also easily add</inline>
+		  <a href="http://www.webtrendz.co.uk" target="_blank">Ӂhyperlinks</a>
+		  <inline>. We get some more inline text here.</inline>
+   </paragraph>
+    </Text>
+  </Image>
+  <Image Filename="atwf.jpg">
+    <Text>
+      <headline>Description Text</headline>
+      <break>Ӂ</break>
+      <paragraph>Here you can add a description text for every single image.</paragraph>
+      <break>Ӂ</break>
+      <paragraph>
+		  <inline>So it's pretty simple to set this text. You can also easily add</inline>
+		  <a href="http://www.webtrendz.co.uk" target="_blank">Ӂhyperlinks</a>
+		  <inline>. We get some more inline text here.</inline>
+   </paragraph>
+    </Text>
+  </Image>
+  <Image Filename="g2m.jpg">
+    <Text>
+      <headline>Description Text</headline>
+      <break>Ӂ</break>
+      <paragraph>Here you can add a description text for every single image.</paragraph>
+      <break>Ӂ</break>
+     <paragraph>
+		  <inline>So it's pretty simple to set this text. You can also easily add</inline>
+		  <a href="http://www.webtrendz.co.uk" target="_blank">Ӂhyperlinks</a>
+		  <inline>. We get some more inline text here.</inline>
+   </paragraph>
+    </Text>
+  </Image>
+  <Image Filename="interpartner.jpg">
+    <Text>
+      <headline>Description Text</headline>
+      <break>Ӂ</break>
+      <paragraph>Here you can add a description text for every single image.</paragraph>
+      <break>Ӂ</break>
+      <paragraph>
+		  <inline>So it's pretty simple to set this text. You can also easily add</inline>
+		  <a href="http://www.webtrendz.co.uk" target="_blank">Ӂhyperlinks</a>
+		  <inline>. We get some more inline text here.</inline>
+   </paragraph>
+    </Text>
+  </Image>
+  <Image Filename="wte.jpg">
+    <Text>
+      <headline>Description Text</headline>
+      <break>Ӂ</break>
+      <paragraph>Here you can add a description text for every single image.</paragraph>
+      <break>Ӂ</break>
+      <paragraph>
+		  <inline>So it's pretty simple to set this text. You can also easily add</inline>
+		  <a href="http://www.webtrendz.co.uk" target="_blank">Ӂhyperlinks</a>
+		  <inline>. We get some more inline text here.</inline>
+   </paragraph>
+    </Text>
+  </Image>
+  <Image Filename="image1.jpg">
+    <Text>
+      <headline>Description Text</headline>
+      <break>Ӂ</break>
+      <paragraph>Here you can add a description text for every single image.</paragraph>
+      <break>Ӂ</break>
+      <paragraph>
+		  <inline>So it's pretty simple to set this text. You can also easily add</inline>
+		  <a href="http://www.webtrendz.co.uk" target="_blank">Ӂhyperlinks</a>
+		  <inline>. We get some more inline text here.</inline>
+   </paragraph>
+    </Text>
+  </Image>
+</Piecemaker>

@@ -1,0 +1,813 @@
+/* CSS Document */
+
+/*
+CSS Style: Default
+Description: Webtrendz website
+Author: Rahim Haji
+URL: www.webtrendz.co.uk
+Version: 1.0
+*/
+
+
+html, body, div, span, applet, object, h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, a, abbr, acronym, address, del, em, img,
+strike, strong, sub, sup, dl, dt, dd, ol, ul, li, fieldset,
+form, label, legend, button, table, caption, tbody, tfoot, thead, tr, th, td {
+	background:transparent no-repeat 0 0;
+	border:0;
+	font-size:100%;
+	margin:0;
+	outline:0;
+	padding:0;
+	text-align:left;
+	vertical-align:baseline
+}
+
+
+
+body {
+	background:#fff;
+	color:#333333;
+	font:62.5% verdana, arial, helvetica, sans-serif;
+	line-height:140%;
+	text-align:center;
+}
+p{
+	line-height:1.7em;
+	clear:both;
+	float:left;
+	width:100%;
+}
+h1,h2,h3,h4,h5,h6,strong,legend {
+	font-weight:700;
+	line-height:130%;
+}
+
+
+h1{
+	color:#4D5E56;
+	font-size: 1.7em
+}
+h2{
+	color:#333333;
+	font-size: 1.5em;
+}
+h3{
+	color:#2B9D1B;
+	font-size:1.4em;
+}
+
+
+.com99 h3{
+	clear:both;
+	margin-bottom:5px;
+	border-bottom:1px solid #2B9D1B;
+}
+
+.com99 h4{
+	clear:both;
+	margin:10px 0;
+}
+
+.com99 h4.fltLft{
+
+	width:100%;
+}
+body .fullWidth p{
+	width:100% !important;
+	float:left
+}
+h4{
+	color:#4D5E56;
+	font-size:1.3em;
+}
+h5, h6{
+	color:#6F6F6F;
+	font-size:1.2em;
+}
+abbr,acronym {
+	border-bottom:1px dotted #000;
+	cursor:help
+}
+
+em {
+	font-style:italic
+}
+
+p,fieldset,table {
+	margin-bottom:1em
+}
+
+sup {
+	vertical-align:super;
+	font-size:0.8em;
+	font-weight:normal;
+}
+
+p, td, th, li, dt, dd, .bp input { font-size:1.251em; *font-size: 1.3em; }
+blockquote {
+	margin:1em
+}
+
+ol,ul {
+	list-style:none;
+	list-style-position:outside;
+	padding:0;
+	margin:0;
+}
+
+.bull{
+	padding-left:10px;
+	margin-bottom:10px;
+	*margin-bottom:20px;
+}
+.bull li{
+	background:url(../images/bullet.gif) no-repeat 0 6px;
+	padding-left:10px;
+	clear:both;
+	margin-bottom:4px;
+	list-style-type:none !important;
+}
+
+.num{
+	margin:7px 0 0 35px;
+	clear:both;
+	list-style:decimal
+}
+.num li{
+	padding-left:10px;
+	clear:both;
+	margin-bottom:4px;
+}
+
+.list{
+	clear:both;
+	float:left;
+	margin-left:10px;
+	color:#454545;
+}
+.list dt{
+	font-weight:bold;
+	margin:10px 0 0 0px;
+}
+.list dd{
+	margin:0px 0 0 10px;
+	line-height:1.5em;
+}
+a {
+	color:#000;
+	font-weight:bold;
+	text-decoration:none;
+}
+a:hover {
+	text-decoration:none;
+	color:#7BB510;
+}
+
+
+.brwnBtn{
+	height:28px;
+	padding-left:8px;
+	background:url(../images/title-bwn-left.gif) no-repeat top left;
+	color:#fff;
+	float:left;
+
+}
+
+.brwnBtn:hover{
+	background:url(../images/title-grn-left.gif) no-repeat top left;
+}
+
+.brwnBtn span{
+	background:url(../images/title-bwn-right.gif) no-repeat top right;
+	height:27px;
+	float:left;
+	padding:4px 8px 0 3px;
+	cursor:pointer;
+	font-size:0.8em;
+}
+
+.brwnBtn:hover span{
+	background:url(../images/title-grn-right.gif) no-repeat top right;
+}
+
+.burgBtn{
+	height:28px;
+	padding-left:8px;
+	background:url(../images/title-burg-left.gif) no-repeat top left;
+	color:#fff;
+	float:left;
+}
+
+.burgBtn:hover{
+	background:url(../images/title-blu-left.gif) no-repeat top left;
+}
+
+.burgBtn span{
+	background:url(../images/title-burg-right.gif) no-repeat top right;
+	height:27px;
+	float:left;
+	padding:4px 8px 0 3px;
+	cursor:pointer;
+	font-size:0.8em;
+}
+
+.burgBtn:hover span{
+	background:url(../images/title-blu-right.gif) no-repeat top right;
+}
+
+.grnBtn{
+	height:28px;
+	padding-left:8px;
+	background:url(../images/title-grn-left.gif) no-repeat top left;
+	color:#fff;
+	float:left;
+}
+
+.grnBtn:hover{
+	background:url(../images/title-burg-left.gif) no-repeat top left;
+}
+
+.grnBtn span{
+	background:url(../images/title-grn-right.gif) no-repeat top right;
+	height:27px;
+	float:left;
+	padding:4px 8px 0 3px;
+	cursor:pointer;
+	font-size:0.8em;
+}
+
+.grnBtn:hover span{
+	background:url(../images/title-burg-right.gif) no-repeat top right;
+}
+
+.bluBtn{
+	height:28px;
+	padding-left:8px;
+	background:url(../images/title-blu-left.gif) no-repeat top left;
+	color:#fff;
+	float:left;
+}
+
+.bluBtn:hover{
+	background:url(../images/title-burg-left.gif) no-repeat top left;
+}
+.bluBtn span{
+	background:url(../images/title-blu-right.gif) no-repeat top right;
+	height:27px;
+	float:left;
+	padding:4px 8px 0 3px;
+	cursor:pointer;
+	font-size:0.8em;
+}
+
+.bluBtn:hover span{
+	background:url(../images/title-burg-right.gif) no-repeat top right;
+}
+
+.pageWrapper{
+	width:900px;
+	margin:0px auto;
+	padding:10px 0;
+	border-top:5px solid #7cb610;
+	border-bottom:5px solid #7cb610;
+	display:block;
+	overflow:hidden;
+}
+
+
+.header{
+	overflow:hidden;
+	padding:10px 0;
+}
+.header .siteLogo{
+	float:left;
+	width:300px;
+	margin:0;
+}
+
+.header .siteTitle{
+	color:#999999;
+	float:left;
+	font-size:1.5em;
+	padding:10px 0 0 40px;
+	width:320px;
+}
+
+.header .siteTitle em{
+	font-size:0.7em;
+	font-weight:normal;
+}
+
+.header .telnum{
+	float:right;
+	color:#2b9d1b;
+	font-weight:normal;
+	font-size:2em;
+	text-align:center;
+	width:250px;
+	height:40px;
+	margin:0;
+	padding:5px 0 15px 5px;
+	/*background:url(../images/phone-icon.gif) no-repeat 0 0;*/
+}
+
+.header .telnum span{
+	color:#000;
+}
+
+.banner{
+	clear:both;
+	overflow:hidden;
+}
+.bannerTxt{
+	float:left;
+	margin:65px 0 85px;
+}
+.contentArea{
+	clear:both;
+	overflow:hidden;
+}
+
+.contentArea .contentHead{
+	background:url(../images/contentHead.jpg) no-repeat 0 0;
+	overflow:hidden;
+	width:100%;
+	min-height:200px;
+	padding:5px 10px;
+}
+.contentArea .contentFooter{
+	background:url(../images/contentFooter.jpg) no-repeat 0 0;
+	overflow:hidden;
+	width:100%;
+	height:10px;
+	margin-bottom:5px;
+}
+.clr{
+	clear:both;
+}
+.fltLft{
+	float:left;
+}
+ul.imgsGallery li.clr{
+	width:100%;
+}
+.imgfltLft{
+	float:left;
+	margin:0 5px 5px 0;
+}
+.fltRht{
+	float:right;
+}
+.mrgRht{
+	margin-right:10px;
+}
+.mrgTop{
+	margin-top:10px;
+}
+.pageWrapper .contentArea .com30{
+	float:left;
+	width:29%;
+	margin:10px 5px 0 5px;
+
+}
+.pageWrapper .contentArea .com60{
+	float:left;
+	width:63.5%;
+	margin:10px 28px 0 0;
+}
+.pageWrapper .contentArea .com99{
+	float:left;
+	clear:both;
+	width:97%;
+	margin:0px 0 0;
+}
+
+.nomrg{
+	margin:0;
+}
+
+.lnk{
+	margin-bottom:10px;
+	clear:both;
+	overflow:hidden;
+}
+
+.contentArea .gryGrad{
+	background:url(../images/grad-gry.gif) repeat-x bottom right;
+	padding:10px;
+	margin:0px 5px 0 0;
+	display:block !important;
+	float:left;
+	width:98%;}
+
+.eqlHght{
+	height:275px;
+}
+
+body .contentArea .eqlHght p,
+body .contentArea .eqlHght ul{
+	height:160px;
+	margin-top:0 !important;
+}
+
+.com60 h2,
+.com99 h2{
+	padding:0px 0 0px 0px;
+	margin-bottom:10px;
+	border:0;
+}
+
+.com99 h2{
+
+	margin-bottom:10px;
+}
+
+.com30 h2 span,
+.com60 h2 span,
+.com99 h2 span{
+	padding:7px 0px 0px 10px;
+	width:100%;
+	*width:95%;
+	height:20px;
+	float:left;
+}
+.brg h2{
+	background:url(../images/title-burg-left.gif) no-repeat top left;
+	}
+.brg h2 span{
+	background:url(../images/title-burg-right.gif) no-repeat top right;
+	}
+
+.bwn h2{
+	background:url(../images/title-bwn-left.gif) no-repeat top left}
+.bwn h2 span{
+	background:url(../images/title-bwn-right.gif) no-repeat top right}
+
+.grn h2{
+	background:url(../images/title-grn-left.gif) no-repeat top left}
+.grn h2 span{
+	background:url(../images/title-grn-right.gif) no-repeat top right}
+
+
+.gryGrad h2,
+.gryGrad h2 span{
+	color:#666666;
+	font-size:1.5em;
+	font-weight:normal;
+	padding-left:0;
+	margin-left:0;
+	height:auto;
+	overflow:hidden;}
+
+.gryGrad h2 span{
+	font-weight:bold;
+	line-height:1.3em;
+	padding-top:0;
+	border-bottom:1px solid #CCCCCC;
+	padding-bottom:15px;
+}
+
+.com30 .textwidget h2{
+	border:0;
+	margin-bottom:15px;
+}
+
+.blu h2{
+	background:url(../images/title-blu-left.gif) no-repeat top left}
+.blu h2 span{
+	background:url(../images/title-blu-right.gif) no-repeat top right}
+.com30 p img{
+	margin:0 4px 0px 0;
+}
+
+.footer{
+	clear:both;
+	overflow:hidden;
+	margin:20px 0 10px;
+}
+.footer ul{
+	padding-left:0px;
+}
+.footer ul li{
+	float:left;
+	padding:2px 5px;
+	margin-top:15px;
+	border-right:1px solid #666666;
+}
+.footer ul li.bdr{
+	border-right:1px solid #cccccc;
+}
+.footer ul li.page-item-35{
+	border:0;
+}
+.footer ul li.cert{
+	float:right;
+	margin-top:0;
+	border:0;
+}
+.webtrendzFooter{
+	display:block;
+	margin:0 auto;
+	overflow:hidden;
+	padding:10px 0;
+	width:900px;
+}
+.webtrendz{
+	float:right;
+	text-align:right;
+	font-size:0.8em;
+	*font-size:0.98em;
+}
+li.webtrendz a{
+	display:inline;
+	color:#999999;
+
+}
+.s_bookmarks{
+	float:left;
+	text-align:right;
+	font-size:0.8em;
+	*font-size:0.98em;
+}
+.footer ul li a{
+	display:block;
+	color:#7cb610;
+}
+
+.footer ul li a:hover{
+	text-decoration:underline
+}
+
+
+
+
+
+div.content {
+	/* The display of content is enabled using jQuery so that the slideshow content won't display unless javascript is enabled. */
+	display: none;
+	float: right;
+	width: 550px;
+}
+div.content a, div.navigation a {
+	text-decoration: none;
+	color: #777;
+}
+div.content a:focus, div.content a:hover, div.content a:active {
+	text-decoration: underline;
+}
+div.controls {
+	margin-top: 5px;
+	height: 23px;
+	display:none;
+}
+div.controls a {
+	padding: 5px;
+}
+div.ss-controls {
+	float: left;
+}
+div.nav-controls {
+	float: right;
+}
+div.slideshow-container {
+	position: relative;
+	clear: both;
+	height: 300px; /* This should be set to be at least the height of the largest image in the slideshow */
+}
+div.loader {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-image: url('imahes/loader.gif');
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 500px;
+	height: 250px; /* This should be set to be at least the height of the largest image in the slideshow */
+}
+div.slideshow {
+	height:300px;
+	width:494px;
+
+}
+div.slideshow span.image-wrapper {
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+div.slideshow a.advance-link {
+	display: block;
+	width: 548px;
+	height: 300px; /* This should be set to be at least the height of the largest image in the slideshow */
+	line-height: 300px; /* This should be set to be at least the height of the largest image in the slideshow */
+	text-align: right;
+}
+div.slideshow a.advance-link:hover, div.slideshow a.advance-link:active, div.slideshow a.advance-link:visited {
+	text-decoration: none;
+}
+div.slideshow img {
+	/*vertical-align: middle;*/
+	border: 0px solid #ccc;
+	height:300px;
+	width:494px;
+}
+
+div.caption-container {
+	display:none;
+	position: relative;
+	clear: left;
+	height: 58px;
+	width:100%;
+	margin-top:-58px;
+}
+span.image-caption {
+	display: block;
+	position: absolute;
+	width:100%;
+}
+div.caption {
+	background-color: #fff;
+	padding: 12px;
+	color: #6ca10d;
+	width:100%;
+}
+div.image-title {
+	font-weight: bold;
+	font-size: 1.4em;
+	text-align:right;
+	padding-right:20px;
+}
+
+div.image-desc {
+	line-height: 1.3em;
+	padding-top: 12px;
+}
+div.navigation {
+	/* The navigation style is set using jQuery so that the javascript specific styles won't be applied unless javascript is enabled. */
+}
+ul.thumbs {
+	clear: both;
+	margin: 0;
+	padding-left:82px;
+	padding-top:9px;
+	background:url(../images/banr-nav-bg.gif) no-repeat 0 0;
+	width:205px;
+	height:36px;
+}
+ul.thumbs li {
+	float: left;
+	padding: 0;
+	margin: 0px 3px 0px 0;
+	list-style: none;
+}
+a.thumb {
+	display: block;
+	border: 0px solid #ccc;
+	background:#fff;
+}
+ul.thumbs li.selected a.thumb {
+	background: #7cb610;
+}
+a.thumb:focus {
+	outline: none;
+}
+ul.thumbs img {
+	border: none;
+	display: block;
+
+}
+div.pagination {
+	clear: both;
+}
+div.navigation div.top {
+	margin-bottom: 12px;
+	height: 11px;
+}
+div.navigation div.bottom {
+	margin-top: 12px;
+}
+div.pagination a, div.pagination span.current, div.pagination span.ellipsis {
+	display: block;
+	float: left;
+	margin-right: 2px;
+	padding: 4px 7px 2px 7px;
+	border: 1px solid #ccc;
+}
+div.pagination a:hover {
+	background-color: #eee;
+	text-decoration: none;
+}
+div.pagination span.current {
+	font-weight: bold;
+	background-color: #000;
+	border-color: #000;
+	color: #fff;
+}
+div.pagination span.ellipsis {
+	border: none;
+	padding: 5px 0 3px 2px;
+}
+
+.imgsGallery{
+	float:left;
+	width:225px;
+	margin-right:10px;
+}
+.imgsGallery li{
+	float:left;
+	margin:2px;
+	overflow:hidden
+}
+
+.imgsGallery li.main img{
+	width:160px;
+	height:178px;
+	border:1px solid #fff;
+}
+
+.imgsGallery li span{
+	display:block;
+}
+
+.imgsGallery li img{
+	display:block;
+	overflow:hidden;
+	width:50px;
+	height:40px;
+	border:1px solid #fff;
+}
+
+.welcomeMsg{
+	background:#333333;
+	padding:10px;
+	margin-bottom:20px;
+	overflow:hidden;
+	float:left;
+	width:98%;
+}
+.welcomeMsg h2{
+	padding:0 10px 0px;
+	margin-bottom:20px;
+	overflow:hidden;
+	font-weight:bold;
+	color:#CCCCCC;
+	background:#666666;
+	font-size:2.5em;
+	border-bottom:1px solid #CCCCCC;
+	}
+
+.welcomeMsg p{
+	float:left;
+	clear:none;
+	width:320px;
+	line-height:1.5em;
+	font-size:1.65em;
+	color:#FFF;
+	padding:0 10px;
+}
+.welcomeMsg ul{
+	padding:10px;
+	float:left;
+	width:250px;
+	margin-left:50px;
+	}
+.welcomeMsg ul li{
+	clear:both;
+	margin:0 0 10px;
+	background:none !important;
+	padding-left:0px;
+	clear:both;
+	list-style-type:disc !important;
+	color:#CCCCCC
+}
+.welcomeMsg ul li a{
+	display:block;
+	color:#CCCCCC;
+	font-size:1.3em;
+	font-weight:normal;
+}
+.welcomeMsg ul li a:hover{
+	text-decoration:underline
+}
+
+.contentArea .container{
+	clear:both;
+	float:left;
+	display:block;
+	overflow:hidden;
+	margin-right:0;
+	width:98%;
+}
+
+.contentArea .container p{
+	clear:none;
+	float:right;
+	width:620px;
+	font-size:1.35em;
+}
+.contactDetails{
+	float:left;
+	width:45%;
+	margin-right:20px;
+}

@@ -1,0 +1,21 @@
+.ForumArea
+{
+	display: block;
+	clear:both;
+	width:100%;
+	margin:0;
+	padding:0;
+	float: left;
+}
+#wpf-wrapper {
+	display: table;
+	width:100%;
+}
+
+p {
+	clear:both;
+}
+
+.breadcrumbs, #wpf-wrapper .wpf, #wpf-wrapper form {
+	clear:both;
+}

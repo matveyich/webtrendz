@@ -1,0 +1,160 @@
+#featured_reviews
+{
+	display:table;
+	width:100%;
+	height:100%;
+	padding:0;
+	margin:0;
+	float:none;
+	clear:both;
+}
+.featured_rvws_block
+{
+	width: 20%;
+	w\idth: 33%;
+	float:left;
+	margin:0;
+	padding:0;
+	display:table-cell;
+}
+.featured_title 
+{
+	width: 100%;
+	min-height: 30px;
+	clear:both;
+	float: none;
+	padding:0;
+	margin:0;
+}
+.featured_title h2
+{
+	padding: 4px 0px;
+	margin-left: 5px;
+	font-size:120%;
+	font-weight: bold;
+}
+.featured_content
+{
+	min-height: 200px;
+	clear:both;
+	float: none;
+	padding:0;
+	margin:0;
+	display: table;
+	text-align:left;
+}
+.featured_content a
+{
+	color: #444444;
+	text-decoration: none;
+}
+.featured_content a:hover
+{
+	color: #444444;
+	text-decoration: none;
+}
+
+
+.featured_review_box{
+	border:1px solid #CCCCCC;
+	overflow:hidden;
+	margin-bottom:10px;
+	background:url(../images/grad-gry.gif) 0 95%;
+}
+.featured_review
+{
+	height: 100%;
+	clear: both;
+	float: none;
+	padding:4px;
+	margin:0 0 5px;
+	min-height:125px;
+}
+.featured_review img
+{
+	max-width: 160px;
+	padding: 0;
+	margin: 2px;
+	clear:both;
+	float:none;
+}
+.featured_review_title
+{
+	padding: 4px 0;
+	margin: 0;
+	clear:both;
+	float:none;
+	font-weight: bold;
+}
+.featured_review_text
+{
+	padding: 5px 0;
+	margin: 0;
+	clear:both;
+	float:none;
+	font-weight: normal;
+	/*
+	height: 50px;
+	
+	max-height: 70px;
+	min-height:20px;
+	*/
+}
+.featured_review_bottom
+{
+	clear:both;
+	float:none;
+	margin:4px;
+	overflow:hidden;
+	padding:0;
+}
+.featured_review_top
+{
+	padding: 0px;
+	margin:0;
+	clear:both;
+	float:none;
+}
+.featured_rvws_block_row
+{
+	width: 100%;
+	float:none;
+	clear: both;
+	margin:0;
+	padding:0;
+	display:table-cell;
+}
+.featured_rvws_block_row .featured_review_box{
+	float: left;
+	clear: none;
+	margin: 3px;
+}
+.featured_rvws_block_table
+{
+	display:table;
+	width:100%;
+	height: auto;
+}
+.featured_rvws_block_table table
+{
+	width: 100%;
+	border-collapse: collapse; 
+	color:#006291;
+}
+.featured_rvws_block_table th
+{
+	height:40px; 
+	background:url('../images/bgjump.gif') repeat-x; 
+	padding:0px !important;
+}
+.featured_rvws_block_table td
+{
+	height:30px; 
+	padding:2px 5px 2px 0px !important; 
+	border-bottom:1px #c7c7c7 solid;
+}
+
+.featured_rvws_block_table table img
+{
+	width: 120px;
+}

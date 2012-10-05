@@ -1,0 +1,178 @@
+/*
+$JA#COPYRIGHT$
+*/
+
+#ja-left .ja-l2 .ja-left1, #ja-left .ja-l2 .ja-left2,
+#ja-right .ja-r2 .ja-right1, #ja-right .ja-r2 .ja-right2 { width: 49.99%; }
+
+#ja-left .ja-l2 .ja-left2, #ja-right .ja-r2 .ja-right2 { float: right; }
+
+#ja-container.ja-l2 .main {}
+
+#ja-container.ja-r2 .main {}
+#ja-container.ja-r1 .main {}
+
+.ja-zinfp-featured {background-image: none; }
+
+.cols2 .article_column { width: 49.99%; }
+.cols3 .article_column { width: 33.3%; }
+.cols4 .article_column { width: 24.99%; }
+.cols5 .article_column { width: 19.99%; }
+
+*html #ja-wrapper { margin-top: 205px; }
+
+*+html ul.pagination {
+	float: none;
+}
+
+.button { line-height: normal; margin: 0 10px; }
+
+/* For IE6 ---*/
+#ja-subnav ul, ul.pagination li span, ul.pagination a, #ja-footnav, 
+.counter span, .contentdescription, .leading,
+.column ul li, .ja-moduletable li, .ja-module li {
+	zoom: 1;
+}
+
+#ja-footnav { width: 100%; }
+
+* html .ja-contentslider-left {
+	margin-left: 4px !important;
+}
+
+/***fixbug not show backgound-image in IE****/
+#ja-subnav a {
+	background-color: #333 !important;
+}
+
+#ja-mainnav a span.has-image { }
+
+#ja-mainnav a:hover span.has-image,#ja-mainnav li.hover a span.has-image,#ja-mainnav a.active span.has-image {
+	background-color: transparent !important;
+}
+
+#ja-mainnav ul ul a:hover span.has-image,#ja-mainnav ul ul a.active span.has-image { }
+
+#ja-subnav ul li ul a { background: none !important; }
+
+/* IE6 Warning ---*/
+#ie6-warning {
+	position: absolute;
+	top: 0;
+	z-index: 999;
+	font-size: 110%;
+}
+
+#ie6-warning .main {
+	background: #ffffef;
+	padding: 10px 0;
+}
+
+#ie6-warning .main .inner {
+	background: url(../images/icon-ie.jpg) no-repeat 10px 0px;
+	padding-left: 170px;
+}
+
+#ie6-warning .main h1 {
+	margin: 10px 0;
+}
+
+#ie6-warning .main p.note {
+	font-weight: bold;
+	color: #cc0000;
+	margin: 5px 0;
+}
+
+#ie6-warning li {
+	display: inline;
+	padding: 10px 10px 10px 0;
+	float: left;
+}
+
+#ie6-warning li a {
+	width: 48px;
+	height: 48px;
+	display: block;
+}
+
+#ie6-warning li a.firefox-download {
+	background: url(../layouts/blocks/ie6/icon_brwoser.jpg) no-repeat top left;
+}
+
+#ie6-warning li a.chrome-download {
+	background: url(../layouts/blocks/ie6/icon_brwoser.jpg) no-repeat 50% top;
+}
+
+#ie6-warning li a.safari-download {
+	background: url(../layouts/blocks/ie6/icon_brwoser.jpg) no-repeat 75% top;
+}
+
+#ie6-warning li a.opera-download {
+	background: url(../layouts/blocks/ie6/icon_brwoser.jpg) no-repeat 100% top;
+}
+
+#ie6-warning li a.ie-download {
+	background: url(../layouts/blocks/ie6/icon_brwoser.jpg) no-repeat 25% top;
+}
+
+#ie6-warning li a.firefox-download:hover,
+#ie6-warning li a.firefox-download:focus,
+#ie6-warning li a.firefox-download:active {
+	background: url(../layouts/blocks/ie6/icon_brwoser.jpg) no-repeat bottom left;
+}
+
+#ie6-warning li a.chrome-download:hover,
+#ie6-warning li a.chrome-download:focus,
+#ie6-warning li a.chrome-download:active {
+	background: url(../layouts/blocks/ie6/icon_brwoser.jpg) no-repeat   50% bottom;
+}
+
+#ie6-warning li a.safari-download:hover,
+#ie6-warning li a.safari-download:focus,
+#ie6-warning li a.safari-download:active {
+	background: url(../layouts/blocks/ie6/icon_brwoser.jpg) no-repeat  75% bottom;
+}
+
+#ie6-warning li a.opera-download:hover,
+#ie6-warning li a.opera-download:focus,
+#ie6-warning li a.opera-download:active {
+	background: url(../layouts/blocks/ie6/icon_brwoser.jpg) no-repeat  100% bottom;
+}
+
+#ie6-warning li a.ie-download:hover,
+#ie6-warning li a.ie-download:focus,
+#ie6-warning li a.ie-download:active {
+	background: url(../layouts/blocks/ie6/icon_brwoser.jpg) no-repeat 25% bottom;
+}
+
+#ie6-warning li a:hover,
+#ie6-warning li a:focus,
+#ie6-warning li a:active {
+	text-decoration: none;
+}
+
+#ie6-warning .close {
+	position: absolute; 
+	right: 3px; 
+	top: 3px;
+}
+
+#ie6-warning .close a {
+	background: url(../layouts/blocks/ie6/close.gif) no-repeat;
+	width: 21px;
+	height: 21px;
+	display: block;
+}
+
+#ie6-warning .close a:hover,
+#ie6-warning .close a:focus,
+#ie6-warning .close a:active {
+	background: url(../layouts/blocks/ie6/close-hover.gif) no-repeat;
+	text-decoration: none;
+}
+
+/* Typography ---*/
+p.error, p.message, p.tips, p.rss, p.key, p.tag, p.cart, p.note, p.photo, p.doc, p.mobi,
+p.blocknumber, div.bubble div.box-ct { zoom: 1; }
+
+.bignumber-1, .bignumber-2, .bignumber-3 { line-height: 44px; }

@@ -1,0 +1,34 @@
+﻿div#telephonenumber {
+	width: 244px;
+	float: left;
+	padding: 1em;
+	border: 1px solid #CCC;
+}
+
+div#telephonenumber input[type="text"] {
+	width: 240px;
+}
+
+div label {
+	display: block;
+}
+
+div input + label, div select + label {
+	margin-top: 5px;
+}
+
+div#telephonenumber {
+	font-size: 10pt;
+	color: #000000;
+	background-color: #f0f7ff;
+}
+
+input[type="submit"] {
+	width: 100px;
+	background-color: #FFFFFF;
+	color: #000000;
+	padding: 1px;
+	border: 1px solid #CCCCCC;
+	display: block;
+	margin-top: 10px;
+}

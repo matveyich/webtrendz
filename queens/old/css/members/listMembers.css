@@ -1,0 +1,53 @@
+﻿div#content {
+	width: 860px !important;
+}
+
+div#members {
+	font-size: 10pt;
+	width: 500px;
+	margin: 10px auto;
+}
+
+div.paginate {
+	text-align: center;
+}
+
+div#sidebar {
+	display: none;
+}
+
+div.member table {
+	width: 500px;
+	margin: 10px auto;
+}
+
+div.member + div.member {
+	border-top: 1px solid #CCCCCC;
+}
+
+div.member * {
+	padding: 0;
+	margin: 0;
+}
+
+div.member ul {
+	list-style: none;
+}
+
+div.member ul li {
+	line-height: 12pt;
+}
+
+div.member table th, div.member table td {
+	text-align: left;
+	padding: 2px;
+}
+
+div.member table td {
+	vertical-align: top;
+	width: 50%;
+}
+
+div.member table td.delete a {
+	color: #CC0000;
+}

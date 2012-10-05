@@ -1,0 +1,118 @@
+﻿div#landlords {
+	color: #000000;
+	font-size: 10pt;
+}
+
+div#landlords table {
+	width: 600px;
+}
+
+fieldset {
+	background-color: #f0f7ff;
+	padding: 10px;
+}
+
+fieldset p {
+	font-weight: bold;
+	margin: 0 0 10px 0;
+}
+
+fieldset input[type="text"] {
+	width: 570px;
+}
+
+fieldset input[type="submit"] {
+	width: 100px;
+	background-color: #FFFFFF;
+	color: #000000;
+	padding: 1px;
+	border: 1px solid #CCCCCC;
+	display: block;
+	margin-top: 10px;
+}
+
+td.information {
+	width: 20px;
+	text-align: center;
+}
+
+div.information {
+	display: none;
+}
+
+div#fancy_div {
+	background-color: #FFFFFF !important;
+	color: #000000 !important;
+}
+
+div#fancy_div p {
+	font-size: 10pt;
+	margin: 0 10px;
+}
+
+div#fancy_div h2 {
+	margin: 10px 10px 15p 10px;
+}
+
+table, div.paginate {
+	width: 600px;
+}
+
+table {
+	padding: 0;
+	margin: 0;
+	border: none;
+}
+
+thead td {
+	border-bottom: 1px solid #000000;
+}
+
+tfoot td {
+	border-top: 1px solid #000000;
+}
+
+td {
+	padding: 5px;
+}
+
+tr.odd {
+	background-color: #f0f7ff;
+}
+
+tr.highlight {
+	background-color: #b6d8ff;
+}
+
+thead, tfoot, div.paginate {
+	font-weight: bold;
+}
+
+div.paginate {
+	margin-top: 20px;
+	line-height: 12pt;
+}
+
+div.paginate img {
+	vertical-align: top;
+}
+
+td.actions, div.paginate {
+	text-align: center;
+}
+
+td.actions {
+	width: 40px;
+}
+
+td.name {
+	width: 270px;
+}
+
+td.email {
+	width: 260px;
+}
+
+table {
+	margin-top: 20px;
+}

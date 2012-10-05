@@ -1,0 +1,57 @@
+﻿div h3 {
+	font-size: 10pt;
+	color: #0000EE;
+	margin-bottom: 10px;
+}
+
+div#let_information, div#address_information, div#extra_information {
+	width: 244px;
+	float: left;
+	border: 1px solid #969696;
+	padding: 1em;
+	border: 1px solid #CCC;
+}
+
+input[type="text"], input[type="text"], textarea {
+	width: 240px;
+}
+
+textarea {
+	height: 120px;
+}
+
+div#address_information, div#extra_information {
+	margin-left: 44px;
+}
+
+div#extra_information {
+	margin-top: 20px;
+}
+
+div label {
+	display: block;
+}
+
+div input + label, div textarea + label, div select + label {
+	margin-top: 5px;
+}
+
+select {
+	width: 246px;
+}
+
+input#Submit {
+	display: block;
+	clear: both;
+}
+
+table {
+	width: 246px;
+	border: none;
+}
+
+table td {
+	width: 123px;
+	text-align: center;
+	border: none;
+}

@@ -1,0 +1,44 @@
+﻿form div {
+	border: 1px solid #CCCCCC;
+	padding: 10px;
+	margin: 10px;
+}
+
+form div label {
+	color: #000000;
+	background-color: #FFFFFF;
+	display: block;
+}
+
+form div input[type="text"] {
+	width: 196px;
+}
+
+form div textarea {
+	width: 196px;
+}
+
+form div select {
+	width: 202px;
+	color: #000000;
+	background-color: #FFFFFF;
+	border: 1px solid #CCCCCC;
+}
+
+form div input[type="text"], form div input[type="submit"], form div textarea {
+	color: #000000;
+	background-color: #FFFFFF;
+	border: 1px solid #CCCCCC;
+	display: block;
+	padding: 2px;
+}
+
+form div label + * {
+	margin-bottom: 5px;
+}
+
+form div input[type="submit"] {
+	margin-top: 10px;
+	padding: 4px;
+	cursor: pointer;
+}

@@ -1,0 +1,46 @@
+.pr_block
+{
+	display: block;
+	float:left;
+	min-width: 300px;
+	/*max-width: 350px;*/
+	clear:none;
+	margin: 5px;
+}
+.pr_block div p
+{
+	padding: 0 0 0 4px;
+}
+.pr_submit
+{
+	clear:both;
+	float:none;
+	display: block;
+}
+.uploaded_img
+{
+	display:block;
+	float:none;
+}
+.uploaded_img img
+{
+	border: 0;
+	max-width: 150px;
+}
+form p{
+	clear:both;
+}
+.clear {
+	clear:both;
+}
+.full_width {
+	width:100%;
+}
+a.selected
+{
+	color:red;
+}
+.hidden_description
+{
+    display:none;
+}

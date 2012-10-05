@@ -1,0 +1,85 @@
+﻿div#search {
+	color: #000000;
+}
+
+tr.headRow td {
+	background-color: #2550b6;
+	padding: 5px;
+	color: #FFFFFF;
+	font-size: 12pt;
+	font-weight: bold;
+}
+
+table {
+	width: 580px;
+}
+
+table + table {
+	margin-top: 30px;
+}
+
+td.bedroom, td.type, td.status, td.price {
+	border-bottom: 1px solid #000000;
+	padding: 5px 0;
+	font-weight: bold;
+	height: 16px;
+}
+
+td.status {
+	color: #E60000;
+	width: 50px;
+	text-align: center;
+}
+
+td.bedroom {
+	margin-left: 5px;
+	width: 70px;
+}
+
+td.price {
+	margin-right: 5px;
+	text-align: right;
+	width: 30%;
+}
+
+td.image {
+	width: 160px;
+}
+
+td.description {
+	padding: 5px 0;
+	vertical-align: top;
+}
+
+td.type {
+	text-align: center;
+}
+
+td.viewMore {
+	text-align: right;
+}
+
+td.viewMore a, td.viewMore a:visited, td.viewMore a:hover {
+	color: #E60000;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+td.image {
+	vertical-align: top;
+}
+
+td.image img {
+	border: 1px solid #000000;
+	margin-top: 5px;
+}
+
+td.result, td.pagination {
+	font-size: 14pt;
+	color: #E60000;
+	padding-top: 10px;
+}
+
+td.pagination {
+	text-align: right;
+}

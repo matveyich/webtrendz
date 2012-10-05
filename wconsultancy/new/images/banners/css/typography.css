@@ -1,0 +1,74 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* 
+SITE COLOURS:
+
+PRIMARY - #46A8F8 - BLUE
+SECONDARY - #7E7E7E - 	CHARCOLE
+TERTIARY - #AEAEAE - GREY
+QUINARARY - #CBCBCB - LIGHT GREY
+*/
+
+body{
+	background:#e6e6e6 url(../images/site-bg.jpg) repeat-x 0 100px;
+	font:62.5% verdana, arial, helvetica, sans-serif;
+	line-height:140%;
+}
+.hideMe{
+	text-indent:-9999em;
+	position:absolute;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family:Georgia, serif, helvetica, "Times New Roman", Times;
+	clear:both;
+	margin-bottom:7px;
+}
+h2{
+	font-size:2.5em;
+	color:#7e7e7e;
+	font-weight:normal;
+	line-height:110%;
+}
+h3{
+	font-size:2em;
+	color:#666;
+	font-weight:normal;
+	line-height:110%;
+}
+h4{
+	font-size:2em;
+	color:#666;
+	font-weight:normal;
+	line-height:110%;
+	margin-top:5px;
+}
+a{
+	text-decoration:none;
+	color:#7b878a;
+}
+
+li{
+	list-style:none;
+}
+p{
+	font-size:1.2em;
+	line-height:1.3em;
+	margin-bottom:15px;
+	color:#7e7e7e;
+	clear:both;
+}
+.highlight{
+	background:#DFF1FF;
+	color:#333;
+	padding:2px;
+	text-align:justify;
+	border-radius: 5px 5px; 
+	-moz-border-radius: 5px; 
+	-webkit-border-radius: 5px; 
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1); 
+	-webkit-box-shadow: 5px 5px rgba(0, 0, 0, 0.1); 
+	-moz-box-shadow: 5px 5px rgba(0, 0, 0, 0.1);
+	border:1px solid #333333;
+}

@@ -1,0 +1,82 @@
+﻿div#sidebar {
+	display: none;
+}
+
+div#content {
+	width: 860px !important;
+	color: #000000;
+	font-size: 10pt;
+}
+
+table, div.paginate {
+	width: 860px;
+}
+
+table {
+	padding: 0;
+	margin: 0;
+	border: none;
+	margin-top: 20px;
+}
+
+thead td {
+	border-bottom: 1px solid #000000;
+}
+
+tfoot td {
+	border-top: 1px solid #000000;
+}
+
+td {
+	padding: 5px;
+}
+
+tr.odd {
+	background-color: #f0f7ff;
+}
+
+tr.highlight {
+	background-color: #b6d8ff;
+}
+
+
+thead, tfoot, div.paginate {
+	font-weight: bold;
+}
+
+h2 {
+	margin-bottom: 30px !important;
+}
+
+div.paginate {
+	margin-top: 20px;
+	line-height: 12pt;
+}
+
+div.paginate img {
+	vertical-align: top;
+}
+
+tbody td.rent {
+	text-align: right;
+}
+
+thead td.rent, tfoot td.rent, td.active, td.actions, thead td.area, tfoot td.area, div.paginate {
+	text-align: center;
+}
+
+td.active {
+	width: 50px;
+}
+
+td.actions {
+	width: 80px;
+}
+
+td.address {
+	width: 590px;
+}
+
+td.area, td.rent {
+	width: 100px;
+}

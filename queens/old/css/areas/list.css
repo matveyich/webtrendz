@@ -1,0 +1,60 @@
+﻿a img {
+	border: none;
+	display: inline;
+}
+
+td {
+	width: 540px;
+}
+
+td.imageLink {
+	width: 38px;
+	text-align: right;
+}
+
+table {
+	width: 600px;
+}
+
+img.toggleSubArea {
+	cursor: pointer;
+}
+
+div#newArea {
+	border: 1px solid #CCCCCC;
+	padding: 5px;
+	margin-bottom: 20px;
+}
+
+div#newArea input[type="text"] {
+	width: 580px;
+}
+
+div#newArea label {
+	display: block;
+}
+
+div#newArea input[type="submit"] {
+	display: block; margin-top: 10px;
+}
+
+tr.parentArea td {
+	font-weight: bold;
+}
+
+tr.child td:first-child {
+	padding-left: 20px;
+	width: 520px;
+}
+
+div.message {
+	border: 1px solid #00CC00 !important;
+	background-color: #CCFFCC;
+	padding: 5px 20px;
+	margin-bottom: 20px;
+}
+
+div.message img {
+	display: inline;
+	margin-right: 10px;
+}

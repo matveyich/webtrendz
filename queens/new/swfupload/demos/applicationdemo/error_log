@@ -1,0 +1,2 @@
+[12-Sep-2010 15:03:51] PHP Warning:  move_uploaded_file() [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: Filename cannot be empty in /home/arhar/public_html/swfupload/applicationdemo/upload.php on line 88
+[12-Sep-2010 15:03:51] PHP Warning:  move_uploaded_file() [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: Unable to move '/tmp/phpDBHEPj' to '' in /home/arhar/public_html/swfupload/applicationdemo/upload.php on line 88

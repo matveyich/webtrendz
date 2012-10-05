@@ -1,0 +1,64 @@
+﻿div#property {
+	color: #000000;
+}
+
+div#property h2 {
+	font-size: 14pt;
+}
+
+div#images img {
+	margin: 10px 20px;
+	border: 1px solid #000000;
+}
+
+div#property table {
+	width: 600px;
+}
+
+div#property table td.left, div#property table td.right {
+	width: 50%;
+	padding: 5px 20px;
+	font-weight: bold;
+}
+
+div#property table td.left {
+	text-align: left;
+}
+
+div#property table td.right {
+	text-align: right;
+	padding: 5px 40px;
+}
+
+div#information div {
+	width: 564px;
+	padding: 5px;
+}
+
+div#videos img {
+	width: 150px;
+	padding: 10px;
+	display: inline;
+}
+
+div#description {
+	color: #484848;
+	font-size: 10pt;
+	letter-spacing: 1px;
+	line-height: 23px;
+	padding: 0 20px;
+}
+
+div#features ul {
+	margin-left: 15px;
+	list-style: none;
+	list-style-image: url('/images/icons/tick_purple.png');
+}
+
+div#features ul li {
+	margin: 5px 10px;
+}
+
+div#files ul {
+	list-style: none;
+}

@@ -1,0 +1,73 @@
+﻿div#lettings {
+	font-size: 10pt;
+	color: #000000;
+}
+
+table, div.paginate {
+	width: 600px;
+}
+
+table {
+	padding: 0;
+	margin: 0;
+	border: none;
+	margin-top: 20px;
+}
+
+thead td {
+	border-bottom: 1px solid #000000;
+}
+
+tfoot td {
+	border-top: 1px solid #000000;
+}
+
+td {
+	padding: 5px;
+}
+
+tr.odd {
+	background-color: #f0f7ff;
+}
+
+tr.highlight {
+	background-color: #b6d8ff;
+}
+
+
+thead, tfoot, div.paginate {
+	font-weight: bold;
+}
+
+div.paginate {
+	margin-top: 20px;
+	line-height: 12pt;
+}
+
+div.paginate img {
+	vertical-align: top;
+}
+
+tbody td.rent {
+	text-align: right;
+}
+
+thead td.rent, tfoot td.rent, td.active, td.actions, div.paginate {
+	text-align: center;
+}
+
+td.active {
+	width: 50px;
+}
+
+td.actions {
+	width: 60px;
+}
+
+td.address {
+	width: 350px;
+}
+
+td.rent {
+	width: 100px;
+}

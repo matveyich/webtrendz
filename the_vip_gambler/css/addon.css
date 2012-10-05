@@ -1,0 +1,9 @@
+﻿.social_bookmark
+{
+	clear:both;
+}	
+.text-box
+{
+	display:table-cell;
+	margin: 4px 0px;
+}

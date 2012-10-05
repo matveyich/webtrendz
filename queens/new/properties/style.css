@@ -1,0 +1,358 @@
+.pr_block
+{
+	display: block;
+	float:left;
+	width:48%;
+	clear:none;
+	margin: 5px;
+}
+.pr_block div p
+{
+	padding: 0 0 0 4px;
+}
+.pr_submit
+{
+	clear:both;
+	float:none;
+	display: block;
+}
+.uploaded_img
+{
+	display:table;
+	float:none;
+}
+.uploaded_img img
+{
+	border: 0;
+	max-width: 150px;
+	float: left;
+}
+
+/*front search*/
+div#search {
+	color: #000000;
+}
+
+tr.headRow td {
+	background-color: #2550b6;
+	padding: 5px;
+	color: #FFFFFF;
+	font-size: 12pt;
+	font-weight: normal;
+}
+
+table {
+	width: 580px;
+	color: #000;
+}
+
+table + table {
+	margin-top: 15px;
+}
+
+td.bedroom, td.type, td.status, td.price {
+	border-bottom: 1px solid #000000;
+	padding: 5px 0;
+	font-weight: bold;
+	height: 16px;
+}
+
+td.status {
+	color: #E60000;
+	width: 150px;
+	text-align: center;
+}
+
+td.bedroom {
+	margin-left: 5px;
+	width: 90px;
+}
+
+td.price {
+	margin-right: 5px;
+	text-align: right;
+	width:130px;
+}
+
+td.image {
+	width: 160px;
+}
+
+td.description {
+	padding: 5px 0;
+	vertical-align: top;
+}
+
+td.type {
+	text-align: center;
+}
+
+td.viewMore {
+	text-align: right;
+	padding:5px 0;
+}
+
+td.viewMore a, td.viewMore a:visited, td.viewMore a:hover {
+	background: #E60000;
+	color:#FFFFFF;
+	text-decoration: none;
+	padding:2px;
+	font-weight: bold;
+}
+
+td.viewMore a:hover {
+	color: #fff;
+	background:#2550B6;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+td.image {
+	vertical-align: top;
+}
+
+td.image img {
+	border: 1px solid #000000;
+	margin-top: 5px;
+	max-width: 150px;	
+}
+
+td.result, .pagination {
+	font-size: 14pt;
+	color: #E60000;
+	padding-top: 10px;
+}
+
+.pagination {
+	text-align: right;
+}
+
+/*property*/
+div#property {
+	color: #000000;
+}
+
+div#property h2 {
+	font-size: 14pt;
+}
+
+div#images img {
+	margin: 10px 20px;
+	border: 1px solid #000000;
+	max-width: 130px;
+}
+
+div#property table {
+	width: 600px;
+}
+
+div#property table td.left, div#property table td.right {
+	width: 50%;
+	padding: 5px 20px;
+	font-weight: bold;
+}
+
+div#property table td.left {
+	text-align: left;
+}
+
+div#property table td.right {
+	text-align: right;
+	padding: 5px 40px;
+}
+
+div#information div {
+	width: 564px;/**/
+	padding: 5px;
+}
+
+div#videos img {
+	width: 150px;
+	padding: 10px;
+	display: inline;
+}
+
+div#description {
+	color: #484848;
+	font-size: 10pt;
+	line-height: 23px;
+	padding: 0 20px;
+}
+
+div#features ul {
+	margin-left: 15px;
+	list-style: none;
+	list-style-image: url('/images/icons/tick_purple.png');
+}
+
+div#features ul li {
+	margin: 5px 10px;
+}
+
+div#files ul {
+	list-style: none;
+}
+/*form.css*/
+div#form form {
+	
+	}
+form p{
+	clear:both;
+}	
+form div {
+	/**/
+	border: 0px solid #CCCCCC;
+	padding: 0px;
+	margin: 5px 0px;
+	
+}
+
+form div label {
+	color: #000000;
+	background-color: #FFFFFF;
+	display: block;
+}
+
+form div input[type="text"] {
+	width: 196px;
+}
+
+form div textarea {
+	width: 196px;
+}
+
+form div select {
+	width: 202px;
+	color: #000000;
+	background-color: #FFFFFF;
+	border: 1px solid #CCCCCC;
+}
+
+form div input[type="text"], form div input[type="submit"], form div textarea {
+	color: #000000;
+	background-color: #FFFFFF;
+	border: 1px solid #CCCCCC;
+	display: block;
+	padding: 2px;
+}
+
+form div label + * {
+	margin-bottom: 5px;
+}
+
+form div input[type="submit"] {
+	margin-top: 10px;
+	padding: 4px;
+	cursor: pointer;
+	color:#FFF;
+}
+
+.accountNav,
+.download-files{
+	margin-left:20px;
+	margin-bottom:5px;
+	padding:10px;
+}
+
+.accountNav li,
+.download-files li{
+}
+
+.accountNav li ul{
+	margin-left:20px;
+}
+
+.accountNav li a{
+	text-decoration:none;
+}
+
+.download-files li a{
+	color:#333333;
+	font-weight:bold;
+}
+
+.accountNav li ul li a{
+	font-size:0.9em;
+	color:#333
+}
+
+#sidebar .accountNav{
+	margin-left:10px;
+}
+
+#sidebar .accountNav li{
+	overflow:hidden;
+	clear:both;
+	margin-bottom:5px;
+	list-style:none;
+	}
+	
+#sidebar .accountNav li a{
+	color:#FFF;
+}
+
+#sidebar .accountNav li ul{
+	margin:10px 0 10px 15px;
+	}
+#sidebar .accountNav li ul li a{
+	color:#CCCCCC;
+}
+/* liScroll styles */
+.tickercontainer { /* the outer div with the black border */
+border: 1px solid #000;
+background: #fff; 
+width: 738px; 
+height: 27px; 
+margin: 0; 
+padding: 0
+overflow: hidden; 
+}
+.tickercontainer .mask { /* that serves as a mask. so you get a sort of padding both left and right */
+position: relative;
+left: 10px;
+top: 8px;
+width: 718px;
+overflow: hidden;
+}
+ul.newsticker { /* that's your list */
+position: relative;
+left: 750px;
+font: bold 10px Verdana;
+list-style-type: none;
+margin: 0;
+padding: 0;
+
+}
+ul.newsticker li {
+float: left; /* important: display inline gives incorrect results when you check for elem's width */
+margin: 0;
+padding: 0;
+background: #fff;
+}
+ul.newsticker a {
+white-space: nowrap;
+padding: 0;
+color: #ff0000;
+font: bold 10px Verdana;
+margin: 0 50px 0 0;
+} 
+ul.newsticker span {
+margin: 0 10px 0 0;
+} 
+
+.wrong_input{
+	color:red;
+}
+.wrong_input .required{
+	color:red;
+	font-weight:bold;
+	font-size:14px;
+}
+.required{
+	color:red;
+}
+
+.hidden_description
+{
+    display:none;
+}

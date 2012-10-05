@@ -1,0 +1,22 @@
+/* 
+	accordion pane. should initially have zero width and display:none.
+	the first pane should override these with inline style
+*/
+#panes div {
+	width:99%;
+	padding:2px;
+	float:left;	
+	display:none;
+	overflow:hidden;	
+}
+
+/* content inside a pane should have fixed width */	
+#panes div p {	
+	font-size:11px;
+	width:100%;
+}
+
+#panes div p img{	
+	float:left;
+	margin-right:2px;
+}

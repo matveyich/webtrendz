@@ -1,0 +1,147 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<style type="text/css">
+<!--
+*, body, div, table  { font-family: Arial, Helvetica, sans-serif; font-size: 100%; color: #484848; }
+a { color: #3366CC; }
+em { color: #660000; }
+h1 { font-size: 190%; font-weight: 400; letter-spacing: -0.09em; }
+h2 { font-size: 140%; font-weight: 400; letter-spacing: -0.08em; }
+dt { font-weight: 700; }
+dd { margin-bottom: 1em; }
+.htmlcode { background-color: #FFFFCC; border: 1px solid #F5DEB3; padding: 1%; color: #993300; }
+.phpcode { background-color: #EEEEEE; border: 1px solid #CCCCCC; padding: 1%; color: #000066; }
+strong { color: #cc3300; }
+-->
+</style>
+<title>The CAPTCHA. Documentation</title>
+</head>
+<body bgcolor="#FFFFFF">
+
+<h1>The CAPTCHA. Documentation</h1>
+<h2>Contents:</h2>
+<ol>
+	<li><a href="#what">What is CAPTCHA?</a></li>
+	<li><a href="#install">How to install The CAPTCHA</a></li>
+	<li><a href="#use">How to use The CAPTCHA</a></li>
+	<li><a href="#troubles">Troubleshooting</a></li>
+</ol>
+<hr width="100%" size="1" color="#CCCCCC" noshade>
+
+<a name="what" id="what"></a>
+<h2>What is CAPTCHA?</h2>
+<p>If you're reading this document possibly you already know what is CAPTCHA. If you don't, please refer to articles on The CAPTCHA's official site at <a href="http://www.thecaptcha.com/">www.thecaptcha.com</a>.</p>
+
+<hr width="100%" size="1" color="#CCCCCC" noshade>
+
+<a name="install" id="install"></a>
+<h2>How to install The CAPTCHA</h2>
+<ol>
+	<li>Make sure your hosting meets the requirements: PHP4 or 5, GD 2.0. TTF support is optional, but recommended.</li>
+	<li>Download The CAPTCHA library.</li>
+	<li>Make a decision on where on your website you will place the library. The best choice is "<em>/captcha</em>" directory under document root of your website. In this case the url of the library's directory will be like this: "<em>www.mysite.com/captcha/</em>".</li>
+	<li>Open files "<em>captcha.function.php5</em>" and "<em>captcha.sampleform.php5</em>" of this package in your favourite text editor. In file "<em>captcha.function.php5</em>" edit custom settings after line "<em>CUSTOM SETTINGS</em>". In file "<em>captcha.sampleform.php5</em>" change <em>$myemail</em> to your real email address.</li>
+	<li>Upload all the library files to your hosting with your favourite FTP-client.</li>
+	<li>Type the url of your site with the path to the library and sample form in your browser. For example: "<em>www.mysite.com/captcha/captcha.sampleform.php5</em>".</li>
+</ol>
+<p>That's all. If you can't see the CAPTCHA image and this sample form is not working properly, please refer to the <a href="#troubles">Troubleshooting</a> section.</p>
+
+<hr width="100%" size="1" color="#CCCCCC" noshade>
+
+<a name="use" id="use"></a>
+<h2>How to use The CAPTCHA</h2>
+<p>The CAPTCHA library consists these files:</p>
+<dl>
+<dt>captcha.function.php5</dt>
+<dd>This file consists two functions: <em>captcha_show_image()</em> and <em>captcha_verify_word()</em>. The first outputs the image to browser and stores a CAPTCHA word in a cookie or a session file. Include the file <em>captcha.function.php5</em> in your project with "<em>include()</em>" or "<em>require()</em>" statement. Example: if you plan to use CAPTCHA in file "<em>myform.php5</em>" place in the very first lines of the file this:
+<pre class="phpcode">include("PATH_TO_CAPTCHA_DIRECTORY/captcha.function.php55");</pre>
+Dont't forget to change PATH_TO_CAPTCHA_DIRECTORY to the real path to these CAPTCHA scripts.
+<br><br>
+The function <em>captcha_verify_word()</em> verifies a CAPTCHA word sent by user. It returns <em>true</em> if a word is correct, or <em>false</em> if user's input is incorrect. You can use the function like this:
+<pre class="phpcode">if (!captcha_verify_word()) {
+	die('Art thou a paltry spambot? Thy word is wrong!');
+} else {
+	// Let's process the form...
+}</pre>
+</dd>
+
+<dt>captcha.image.php5</dt>
+<dd>This file, when called, shows a CAPTCHA image. To use it in your form see an example:
+<pre class="htmlcode">&lt;form action="/script.php5" method="post"&gt;
+...
+&lt;!-- Here is the call for the image. Make sure that url is correct --&gt;
+<strong>&lt;img src="captcha.image.php5"&gt;</strong>&lt;br&gt;
+&lt;!-- This is a text input for CAPTCHA word --&gt;
+<strong>&lt;input name="magicword" type="text" tabindex="4"&gt;</strong>
+&lt;button type="submit"&gt;Submit your comment&lt;/button&gt;
+&lt;/form&gt;
+</pre>
+<p>Please note, that as <em>captcha_show_image()</em> function sends some HTTP headers and outputs the image, <strong>there must be no whitespaces, tabs or characters of any kind at all before the starting and after the closing php tags in the captcha.image.php5 file</strong>.</p>
+</dd>
+
+<dt>captcha.sampleform.php5</dt>
+<dd>This is just an example, though a really working example, how to use The CAPTCHA library. Change <em>$myemail</em> to your real email address.</dd>
+
+<dt>Font files</dt>
+<dd>This library consists some True Type (.ttf) and GD (.gd) fonts to draw the letters over the image. If your hosting does not support True Type, then GD fonts will be used.</dd>
+
+<dt>protected.png</dt>
+<dd>This is a small black box with string "protected by thecaptcha.com" that is shown at the bottom of The CAPTCHA image if <em>$captcha_show_credits</em> is set to true. It's up to you, turn it to false if you don't like it.</dd>
+</dl>
+
+<hr width="100%" size="1" color="#CCCCCC" noshade>
+
+<a name="troubles" id="troubles"></a>
+<h2>Troubleshooting</h2>
+
+<p><strong>I can't see the image. What's wrong?</strong></p>
+<ul>
+	<li>First of all, check that your hosting meets the requirements: PHP4 or 5, GD 2.0. Create a php script <em>info.php5</em> with this single line:
+	<pre class="phpcode">&lt;?php phpinfo(); ?&gt;</pre>
+	and upload it to your site. Open it in your browser: "<em>http://www.mysite.com/info.php5</em>", check the versions of PHP and GD library. If your hosting doesn't meet the requirements, change the hosting :) All the major hosting providers, like www.godaddy.com, have the latest versions of PHP and GD installed.
+	</li><br><br>
+	<li>Make sure, that in file <em>captcha.image.php5</em> there are no whitespaces, tabs or characters of any kind at all before the starting and after the closing php tags.
+	This code is ok:
+<pre class="phpcode">
+<strong>&lt;?php</strong>
+include("captcha.function.php55");
+captcha_show_image();
+die;
+/*
+THE TRAGEDY OF MACBETH
+by William Shakespeare
+
+Dramatis Personae
+DUNCAN, King of Scotland
+MACBETH, Thane of Glamis and Cawdor, a general in the King's army
+...
+*/
+<strong>?&gt;</strong>
+</pre>
+And this code is wrong:
+<pre class="phpcode">
+...
+MACBETH. Thou losest labor.
+As easy mayst thou the intrenchant air
+With thy keen sword impress as make me bleed.
+Let fall thy blade on vulnerable crests; 
+I bear a charmed life, which must not yield
+To one of woman born.
+...
+<strong>&lt;?php</strong>
+include("captcha.function.php55");
+captcha_show_image();
+die;
+<strong>?&gt;</strong>
+</pre>
+	</li><br><br>
+</ul>
+
+<p><strong>I use a session method to store CAPTCHA word, but the captcha_verify_word() function tells me that word is wrong.</strong></p>
+<ul>
+	<li>Don't forget to put <pre class="phpcode">session_start();</pre> in the very first lines of your script, that uses <em>captcha_verify_word()</em> function. The <em>session_start()</em> function not only creates a new session, but also resumes the current one.</li>
+</ul>
+
+</body>
+</html>

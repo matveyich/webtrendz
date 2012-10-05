@@ -1,0 +1,1 @@
+Cufon.replace('.title-page01 h1, .menu a', {	hover: true});

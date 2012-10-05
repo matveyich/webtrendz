@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="http://www.fastcropit.com/schemas/FastcropX1.xsd">
+    <agentGroup code="ABCDGR">
+        <mode>FULL</mode>
+        <exportDate>2005-07-14T10:53:23</exportDate> <!-- xsd:dateTime format yyyy-mm-ddThh:mm:ss /-->
+        <agentBranch code="ABCD">
+        
+            <!-- Example Sales Property /-->
+            <property propertyID="12345">
+                <fullPostCode>B1 1AA</fullPostCode>
+                <countryCode>GB</countryCode>
+                <name>My House</name>
+                <address>My Street, My Town, My County, B1 1AA</address>
+                <regionCode></regionCode>
+                <summary><![CDATA[<span style="font-weight:bold;">Excellent Opportunity for first time buyers</span><BR>
+    2 Bed Starter Home in the much sort after blahblah area.]]></summary>
+                <details><![CDATA[Great home sporting many interesting features including:
+    <UL>
+      <LI>2 Spacious Double Bedrooms</LI>
+      <LI>20' Lounge</LI>
+      <LI>Fitted Kitchen/Bathroom</LI>
+    </UL>]]></details>
+                <pricePrefix>F</pricePrefix>
+                <price>150000</price>
+                <priceCurrency>GBP</priceCurrency>
+                <sellingState>V</sellingState>
+                <propertyType>H</propertyType>
+                <newHome></newHome>
+                <saleOrRent>S</saleOrRent>
+                <tenure>F</tenure>
+                <bedrooms>2</bedrooms>
+                <bathrooms>1</bathrooms>
+                <receptionRooms>1</receptionRooms>
+                <mainImage>ABCD12346.jpg</mainImage>
+                <additionalImage1>ABCD12346a.jpg</additionalImage1>
+                <additionalImage2>ABCD12346b.jpg</additionalImage2>
+                <additionalImage3>ABCD12346c.jpg</additionalImage3>
+                <additionalImage4>ABCD12346d.jpg</additionalImage4>     
+                <vTourURL>http://www.virtualtourhost.com/ABCD1234_vTour.asp</vTourURL>
+                <vTour2URL>http://www.virtualtourhost.com/ABCD1234_WalkThru.asp</vTour2URL>
+                <HIPDocument>http://www.homeinformationpacks.com/ABCD1234_HIP.pdf</HIPDocument>
+                <createdDate>2005-07-13T12:30:00</createdDate>
+                <modifiedDate>2005-07-14T10:30:00</modifiedDate>
+            </property>
+    
+            <!-- Example Rental Property /-->
+            <property propertyID="12346">
+                <fullPostCode>SW1</fullPostCode>
+                <countryCode>GB</countryCode>
+                <name>8</name>
+                <address>Block'o'Flats, High Street, SW1</address>
+                <regionCode></regionCode>
+                <summary>2 Bedroom Apartment</summary>
+                <details>Superb ground floor apartment with 2 double bedrooms and magnificent kitchen.</details>
+                <pricePrefix>M</pricePrefix>
+                <price>1500</price>
+                <priceCurrency>GBP</priceCurrency>
+                <sellingState>V</sellingState>
+                <propertyType>F</propertyType>
+                <newHome></newHome>
+                <saleOrRent>R</saleOrRent>
+                <groundRent>0.0</groundRent>
+                <serviceCharge>1000.00</serviceCharge>
+                <furnished>false</furnished>
+                <tenure></tenure>
+                <bedrooms>2</bedrooms>
+                <bathrooms>1</bathrooms>
+                <receptionRooms>1</receptionRooms>
+                <mainImage>ABCD12346.jpg</mainImage>
+                <additionalImage1>ABCD12346a.jpg</additionalImage1>
+                <additionalImage2>ABCD12346b.jpg</additionalImage2>
+                <additionalImage3>ABCD12346c.jpg</additionalImage3>
+                <additionalImage4>ABCD12346d.jpg</additionalImage4>
+                <createdDate>2005-07-14T10:30:00</createdDate>
+                <modifiedDate>2005-07-14T10:30:00</modifiedDate>
+            </property>
+    
+            <!-- Example Development Property, House /-->
+            <property propertyID="12347">
+                <fullPostCode>CV37 0UK</fullPostCode>
+                <countryCode>GB</countryCode>
+                <name>The Avenue</name>
+                <address>Stratford Upon Avon</address>
+                <regionCode></regionCode>
+                <summary>A Development of houses and flats in a desired location of Stratford Upon Avon</summary>
+                <details><![CDATA[Development plots include<BR>
+    <UL>
+     <LI>8x 2 Bedroom Appartments</LI>
+     <LI>2x 2 Bedroom Semi Detatched Houses</LI>
+     <LI>5x 3 Bedroom Terrace Houses</LI>
+     <LI>3x 4 Bedroom Detatched Houses</LI>
+    </UL>]]></details>  <!-- simple HTML formatting with CDATA /-->
+                <pricePrefix>R</pricePrefix>
+                <price>150000 TO 300000</price> <!-- A price range for all the houses /-->
+                <priceCurrency>GBP</priceCurrency>
+                <sellingState>V</sellingState>
+                <propertyType>H</propertyType> <!-- Houses /-->
+                <newHome>NEW</newHome>
+                <saleOrRent>S</saleOrRent>
+                <tenure>F</tenure>
+                <bedrooms>2 - 4</bedrooms> <!-- you can use '-' or 'TO' /-->
+                <bathrooms>1 TO 2</bathrooms>
+                <receptionRooms>1 TO 2</receptionRooms>
+                <mainImage modifiedDate="2005-07-14T10:30:00">TheAvenueHouse.jpg</mainImage>
+                <createdDate>2005-07-14T10:33:33</createdDate>
+                <modifiedDate>2005-07-14T10:33:33</modifiedDate>
+            </property>
+            <!-- Example Development Property, Flat /-->
+            <property propertyID="12348">
+                <fullPostCode>CV37 0UK</fullPostCode>
+                <countryCode>GB</countryCode>
+                <name>The Avenue</name>
+                <address>Stratford Upon Avon</address>
+                <regionCode></regionCode>
+                <summary>A Development of houses and flats in a desired location of Stratford Upon Avon</summary>
+                <details><![CDATA[Development plots include<BR>
+    <UL>
+     <LI>8x 2 Bedroom Appartments</LI>
+     <LI>2x 2 Bedroom Semi Detatched Houses</LI>
+     <LI>5x 3 Bedroom Terrace Houses</LI>
+     <LI>3x 4 Bedroom Detatched Houses</LI>
+    </UL>]]></details>  <!-- simple HTML formatting with CDATA /-->
+                <pricePrefix>R</pricePrefix>
+                <price>120000 TO 130000</price> <!-- A price range for all the flats /-->
+                <priceCurrency>GBP</priceCurrency>
+                <sellingState>V</sellingState>
+                <propertyType>F</propertyType> <!-- Flats /-->
+                <newHome>NEW</newHome>
+                <saleOrRent>S</saleOrRent>
+                <tenure>S</tenure>
+                <bedrooms>2</bedrooms>
+                <bathrooms>1</bathrooms>
+                <receptionRooms>1</receptionRooms>
+                <mainImage>TheAvenueFlat.jpg</mainImage>
+                <createdDate>2005-07-14T10:33:33</createdDate>
+                <modifiedDate>2005-07-14T10:33:33</modifiedDate>
+            </property>        
+    
+        </agentBranch>
+    </agentGroup>
+</root>

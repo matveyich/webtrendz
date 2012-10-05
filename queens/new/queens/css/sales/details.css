@@ -1,0 +1,142 @@
+﻿div h3 {
+	font-size: 10pt;
+	color: #0000EE;
+	margin-bottom: 10px;
+}
+
+div#address_information, div#sale_information, div#extra_information, div#features_information {
+	width: 244px;
+	float: left;
+	padding: 1em;
+	border: 1px solid #CCC;
+	margin-bottom: 10px;
+}
+
+div#features_information {
+	width: 566px;
+}
+
+div#address_information p, div#sale_information p, div#extra_information p {
+	width: 240px;
+	padding: 2px;
+	color: #000000;
+	margin: 0;
+	font-size: 10pt;
+	border: 1px solid #FFFFFF;
+	line-height: 12pt;
+}
+
+div#address_information, div#extra_information {
+	margin-left: 44px;
+}
+
+div#extra_information {
+	margin-top: 20px;
+}
+
+div label {
+	display: block;
+}
+
+div p + label {
+	margin-top: 5px;
+}
+
+div.message {
+	border: 1px solid #00CC00 !important;
+	background-color: #CCFFCC;
+	padding: 5px 20px;
+	margin-bottom: 20px;
+}
+
+div.message img {
+	display: inline;
+	margin-right: 10px;
+}
+
+table {
+	width: 246px;
+	border: none;
+}
+
+table td {
+	width: 123px;
+	text-align: center;
+	border: none;
+}
+
+div#features_information ul {
+	list-style: none;
+	margin: 10px 0 0 0;
+	padding: 5px 0 0 0;
+	border-top: 1px solid #CCCCCC;
+}
+
+div#features_information ul li {
+	padding: 0;
+	margin: 0;
+}
+
+div#sale_information, div#address_information, div#extra_information, div#features_information {
+	width: 244px;
+	float: left;
+	padding: 1em;
+	border: 1px solid #CCC;
+	margin-bottom: 10px;
+	margin-top: 15px;
+	background-color: #F0F7FF;
+	font-size: 10pt;
+}
+
+div#features_information {
+	width: 560px;
+}
+
+div#sale_information p, div#address_information p, div#extra_information p {
+	width: 240px;
+	padding: 2px;
+	color: #000000;
+	margin: 0;
+	font-size: 10pt;
+	border: 1px solid #CCCCCC;
+	background-color: #FFFFFF;
+	line-height: 12pt;
+}
+
+div#address_information {
+	margin-left: 44px;
+}
+
+div label {
+	display: block;
+	color: #000000;
+	font-weight: bold;
+	font-size: 10pt;
+}
+
+div p + label, div table + label, div p + table {
+	margin-top: 5px;
+}
+
+div.message {
+	border: 1px solid #00CC00 !important;
+	background-color: #CCFFCC;
+	padding: 20px;
+	margin-bottom: 20px;
+}
+
+div.message img {
+	display: inline;
+	margin-right: 10px;
+	vertical-align: middle;
+}
+
+div.message p {
+	margin: 0;
+}
+
+div h3 {
+	color: #000000;
+	font-size: 12pt;
+	margin-bottom: 10px;
+}

@@ -1,0 +1,137 @@
+/*------------------------------------------------------------------------
+# JA Content slide v1.0.0
+# ------------------------------------------------------------------------
+# Copyright (C) 2004-2006 J.O.O.M Solutions Co., Ltd. All Rights Reserved.
+# @license - Copyrighted Commercial Software
+# Author: J.O.O.M Solutions Co., Ltd
+# Websites:  http://www.joomlart.com -  http://www.joomlancers.com
+-------------------------------------------------------------------------*/
+
+/* Content Slider */
+#ja-contentsliderwrap {
+	margin: 0 0 20px 0;
+	padding: 0;
+}
+
+#ja-contentslider {
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	width: auto !important;
+	width: 100%;
+	height: 190px;
+	position: relative;
+}
+
+#ja-contentsliderwrap div.moduletable {
+	margin: 0;
+	padding: 0 !important;
+}
+
+/* Content Slider Center */
+#ja-contentslider-center-wrap {
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #CCCCCC;
+}
+
+#ja-contentslider-center {
+	margin: 0;
+	padding: 0;
+	float: left;
+}
+
+div.ja_slidetitle {
+	text-align: center;
+	padding: 0 0 5px;
+}
+
+div.ja_slidetitle a {
+	font-weight: bold;
+}
+
+div.ja_slideimages {
+	padding: 0 5px;
+	text-align: center;
+}
+
+div.ja_slideimages .caption {
+	background: #FFFFFF;
+	border: 1px solid #CCCCCC;
+	padding: 4px !important;
+	margin: 0;
+}
+
+#ja-contentsliderwrap .ja_slideintro {
+	padding: 10px 5px 0;
+}
+
+div.ja-slidereadmore {
+	margin: 10px 0 0;
+}
+
+#ja-contentslider-center span {
+	width: 140px;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+#ja-contentslider-center img {
+	margin: 0;
+	padding: 0;
+	overflow:hidden;
+}
+
+/* Left + right */
+#ja-contentslider-left,
+#ja-contentslider-right {
+	background: #3D3B39;
+	width: 50px;
+	height: 15px !important;
+	position: absolute;
+}
+
+#ja-contentslider-left {
+	bottom: 0;
+	right: 60px;
+}
+
+#ja-contentslider-right {
+	bottom: 0;
+	right: 0;
+}
+
+#ja-contentslider-left:hover,
+#ja-contentslider-right:hover {
+	cursor: pointer;
+}
+
+/* Clearfix */
+.clearfix:after {
+	clear: both;
+	display: block;
+	content: ".";
+	height: 0;
+	visibility: hidden;
+}
+
+* html > body .clearfix {
+	width: 100%;
+	display: block;
+}
+
+* html .clearfix {
+	height: 1%;
+}
+
+/* Firefox Scrollbar Hack - Do not remove */
+html {
+	margin-bottom: 1px;
+	height: 100%!important;
+	height: auto;
+}
+div.content_element {position:absolute;left:-999em;}

@@ -1,0 +1,40 @@
+/* the overlayed element */
+.simple_overlay {
+	
+	/* must be initially hidden */
+	display:none;
+	position:relative;
+	/* place overlay on top of other elements */
+	z-index:10000;
+	
+	/* styling */
+	background-color:#333;
+	
+	min-width:675px;	
+	min-height:200px;
+	border:1px solid #666;
+}
+
+/* close button positioned on upper right corner */
+.simple_overlay .close {
+	background-image:url(../img/overlay/close.png);
+	position:absolute;
+	right:-15px;
+	top:-15px;
+	cursor:pointer;
+	height:35px;
+	width:35px;
+}
+/* use a semi-transparent image for the overlay */
+	#overlay {
+		/*background-image:url(img/overlay/transparent.png);*/
+		color:#efefef;
+		height:auto;
+	}
+	
+	/* container for external content. uses vertical scrollbar, if needed */
+	div.contentWrap {
+		height:auto;
+		overflow:hidden;
+	}
+	/*.fog_box_inner, .fog_box {z-index:9999;}*/

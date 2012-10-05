@@ -1,0 +1,335 @@
+/*
+$JA#COPYRIGHT$
+*/
+
+/* Eric Meyer's CSS Tools: Reset CSS (Modified by Hieu Nguyen)
+-------------------------------------------------------------*/
+/* http://meyerweb.com/eric/tools/css/reset/ */
+/* v1.0 | 20080212 */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	background: transparent;
+}
+body {
+	line-height: 1;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+}
+p{
+	margin-bottom:10px;
+}
+ul {
+	list-style: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	empty-cells: show;
+}
+
+/* Clearfix
+-------------------------------------------------------------*/
+* html .clearfix {
+	height: 1%; /* IE5-6 */
+}
+
+html[xmlns] .clearfix { /* O */
+	display: block;  
+}
+
+.clearfix:after { /* FF, O, etc. */
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+/* Generic Styles
+-------------------------------------------------------------*/
+.clear, .divider {clear: both;}
+
+.no-display {display: none !important;}
+
+.nowrap,.nobr {white-space: nowrap !important;}
+
+.no-border {
+	border: 0 !important;
+}
+
+.no-padding {padding: 0 !important}
+.no-margin 	{margin: 0 !important;}
+
+/*Alignment---*/
+.v-top 		{vertical-align: top;}
+.v-middle	{vertical-align: middle;}
+.v-bottom 	{vertical-align: bottom;}
+
+.a-left		{text-align: left;}
+.a-center	{text-align: center;}
+.a-right		{text-align: right;}
+
+.left		{float: left;}
+.right	{float: right;}
+
+.auto-width {width: auto;}
+
+/*////////////////////////////  ALL NEW*/
+.art-PostContent {clear: both; margin:0;padding: 5px 0px 15px 0;}
+.img-desc {float: left; clear: none; max-width: 20%; max-height:100px;padding:5px; margin:0; min-width: 0px; overflow:hidden} 
+.post-text {float: left; clear: none; padding:5px; margin: 0 0 15px 0; max-width: 75%; min-width:75%; height: auto}
+.ja-innerpad {width:100%;height:auto}
+.article-content{width:100%;height:auto}
+.widget {list-style: none;border: 1px solid #d5d5d5;margin: 0 0 10px 0}
+.textwidget {padding: 10px; margin:0px}
+.post {padding:0; margin: 2px 0 10px 0}
+
+.featured-header {width:100%; padding:0; margin:0; display:block; text-align: left;}
+.featured-header h2.fh {text-transform:uppercase; color:#656565; font-size:100%; font-weight: bold; margin:0;background: url("../images/h3-bg.gif") repeat-x scroll left bottom transparent; border:1px solid #D5D5D5;padding:10px}
+.featured-content {width:100%;padding:0; margin:0 0 10px 0; display:block; text-align: left;}
+.featured-inner-content{height: 100%; padding:0; margin:0; border:1px solid #D5D5D5;overflow:hidden;}
+.ja-zincontent .featured-inner-content{padding:5px;}
+.featured-news-block {width: 30%; padding:2px 0 2px 4px; margin:5px 0 0 5px; height: 190px; overflow: hidden; float: left; }
+
+.featured-inner-content .featured-news-block {
+width: 31%; 
+padding:2px 0 2px 4px; 
+margin:5px 0 0px 7px; 
+height: 190px; 
+float: left; 
+background:transparent url(../images/grad-gry.gif) repeat scroll 0 40%;
+border:1px solid #CCCCCC;
+margin-bottom:10px;
+overflow:hidden;} 
+
+#blogpost .featured-inner-content .featured-news-block {
+background:transparent url(../images/grad-grn.gif) repeat scroll 0 0%;
+border:1px solid #446611;
+height:210px
+} 
+
+#blogpost .featured-text{
+	margin-bottom:15px;
+	line-height:1.2em;
+	
+}
+
+.featured-img {clear: both; margin:2px; padding:0;text-align:center}
+.featured-title h2 {clear: both;font-size:100%; font-weight: bold; color:#446611;}
+.featured-title a{font-size:100%; font-weight: bold; color:#446611}
+.featured-title a:hover {text-decoration: underline}
+.featured-meta {clear: both;font-size: 90%; color: grey}
+.featured-text {clear: both;font-size: 100%; color: #000}
+
+.top-content {width:100%; padding:0; margin:0 0 20px 0; display:block; text-align: left;border-bottom: 1px solid #D5D5D5;}
+.top-inner-content{height:100%; padding:0; margin:0; display:table-cell}
+.top-news-block {padding:5px; margin:0 0 10px 0; min-height: 240px; overflow: hidden; float: left;width:65%}
+.top-img {clear: both; margin:2px; padding:0;text-align:left}
+.top-title h2 {clear: both;font-size:160%; font-weight: bold; color:#446611;}
+.top-title a{font-size:100%; font-weight: bold; color:#446611}
+.top-title a:hover {text-decoration: underline}
+.top-meta {clear: both;font-size: 90%; color: grey}
+.top-text {clear: both;font-size: 100%; color: #000; margin-bottom:10px}
+
+.two-small {padding:5px; margin:0 0 10px 0; min-height: 240px; overflow: hidden; float: left;border-bottom: 0px solid #D5D5D5; width:30%}
+.two-small img {float:left;margin:2px; padding:0}
+.top-small {clear:both; float: none; margin:0; padding:0}
+.top-small-heading h2 {clear: both;font-size:120%; font-weight: bold; color:#446611;}
+.top-small-heading a{font-size:100%; font-weight: bold; color:#446611}
+.top-small-heading a:hover {text-decoration: underline}
+.top-small-text {clear: both;font-size: 100%; color: #000; margin-bottom:10px}
+
+#ja-botsl {
+	background: none repeat scroll 0 0 #1C1C1C;
+	color: #A5A5A5;
+	border-top: 5px solid #333333;
+}
+#ja-botsl .ja-box-left {
+	float: left;
+	max-width: 31%;
+	min-width: 30%;
+}
+#ja-botsl .ja-box-left h3{border-bottom: 1px solid #2E2E2E; background: none; color:#CCCCCC; text-shadow:none;}
+#ja-botsl .ja-box-left a{color:#CCCCCC; margin: 0px 0px; padding: 0 0 0 5px;text-decoration:none; display:block}
+#ja-botsl .ja-box-left a:hover {text-decoration: underline}
+
+.bottom-menu {float:right; clear:none;}
+.bottom-menu li{list-style:none; float: left; border-right:1px solid #666 ; margin-right:5px; padding-right:5px}
+.bottom-menu a{color:#454545; margin: 0px 0px; padding: 0 0 0 5px;text-decoration:none; display:block}
+.bottom-menu a:hover {text-decoration: underline; color: #446611}
+
+.featured_title 
+{
+	width: 100%;
+	min-height: 30px;
+	clear:both;
+	float: none;
+	padding:0;
+	margin:0;
+}
+.featured_title h2
+{
+	padding: 4px 0px;
+	margin-left: 5px;
+	font-size:120%;
+	font-weight: bold;
+	margin-bottom:0;
+}
+.featured_content
+{
+	min-height: 200px;
+	clear:both;
+	float: none;
+	padding:0;
+	margin:0;
+	display: table;
+	text-align:left;
+	width:100%;
+}
+.featured_content a
+{
+	color: #444444;
+	text-decoration: none;
+}
+.featured_content a:hover
+{
+	color: #444444;
+	text-decoration: underline;
+}
+.featured_review
+{
+	width: 30%;
+	height: 100%;
+	overflow:hidden;
+	clear: none;
+	float: left;
+	padding:4px;
+	margin:0px 0 10px 5px;
+	background:transparent url(../images/grad-gry.gif) repeat scroll 0 40%;
+	border:1px solid #CCCCCC;
+}
+.featured_review img
+{
+	width: 190px;
+	padding: 0;
+	margin: 2px;
+	clear:both;
+	float:none;
+}
+.featured_review_title
+{
+	padding: 4px 0;
+	margin: 0;
+	clear:both;
+	float:none;
+	font-weight: bold;
+}
+.featured_review_text
+{
+	padding: 5px 0;
+	margin: 0;
+	clear:both;
+	float:none;
+	font-weight: normal;
+	height: 50px;
+}
+.featured_review_bottom
+{
+	padding: 0px;
+	margin:0;
+	clear:both;
+	float:none;
+}
+
+
+.fltLft{
+	float:left
+}
+
+.fltRht{
+	float:right;
+}
+.mrgTop{
+	margin-top:10px;
+}
+.clr{
+	clear:both;
+}
+/*subLevel pages*/
+.pageContainer{
+	overflow:hidden;
+}
+
+.pageContainer .fltLft{
+	width:48%;
+}
+
+.pageContainer .fltRht{
+	width:48%;
+}
+
+.pageContainer .container{
+	padding:5px;
+}
+.article-content .pageContainer .fullWdth{
+	width:100%;
+}
+.list{
+	padding-left:10px;
+}
+
+.list li{
+	margin-bottom:5px;
+}
+
+#Mod53{
+	margin-top:10px;
+}
+
+#Mod53 #text-9_id h3{
+	background:url(../images/flames.gif) repeat-x 0 47%;
+	text-shadow:none;
+	color:#fff;
+}
+.freeGames .featured_review{
+	background:#ebebeb;
+	border-color:#929292;
+	margin-left:9px;
+	
+}
+.freeGames .featured_review a{
+	cursor:pointer;
+}

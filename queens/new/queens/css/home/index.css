@@ -1,0 +1,28 @@
+﻿div#featured {
+	margin-top: 40px;
+}
+
+div#featured img {
+	float: left;
+	cursor: pointer;
+}
+
+div.scrollable {
+	float: left;
+	width: 480px;
+	margin: 0 30px;
+	overflow: hidden;
+	height: 100px;
+	position: relative;
+}
+
+div.scrollable div.items {
+	width: 20000em;
+	position: absolute;
+}
+
+div.items div {
+	float: left;
+	width: 150px;
+	padding: 0 5px;
+}
